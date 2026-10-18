@@ -1,0 +1,22 @@
+[package]
+name = "sumi-core"
+description = "Monitor sessions, feature catalogue, configuration and apply logic shared by sumi and sumid"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+sumi-proto.workspace = true
+sumi-ddc.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+toml = "1"
+dirs = "7"
+ureq = "3"
+
+[features]
+# The in-memory fake monitor (`sumi_core::testing`), for other crates' tests.
+test-support = []

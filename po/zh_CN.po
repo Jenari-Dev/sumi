@@ -1,0 +1,1962 @@
+# Sumi translation.
+# This file is distributed under the same license as Sumi (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: sumi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:100
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+msgid "RTS/RPG"
+msgstr "RTS/RPG"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:101
+#: crates/sumi-gui/qml/AiVisualPanel.qml:41
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "FPS"
+msgstr "FPS"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:102
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+msgid "Cinema"
+msgstr "影院"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:103
+#: crates/sumi-gui/qml/AiVisualPanel.qml:42
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+#: crates/sumi-gui/qml/AiVisualPanel.qml:56
+msgid "Scenery"
+msgstr "风景"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:104
+#: crates/sumi-gui/qml/AiVisualPanel.qml:43
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "Racing"
+msgstr "竞速"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:105
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+msgid "sRGB"
+msgstr "sRGB"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:106
+#: crates/sumi-gui/qml/AiVisualPanel.qml:44
+#: crates/sumi-gui/qml/AiVisualPanel.qml:52
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "MOBA"
+msgstr "MOBA"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:107
+#: crates/sumi-gui/qml/AiVisualPanel.qml:52
+msgid "User"
+msgstr "用户"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:113
+msgid "Switched to %1 mode"
+msgstr "已切换到 %1 模式"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:40
+msgid "Game (RTS/RPG)"
+msgstr "游戏 (RTS/RPG)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:40
+msgid "Role-playing and strategy games"
+msgstr "角色扮演和策略游戏"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:41
+msgid "Shooters"
+msgstr "射击游戏"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:42
+msgid "Landscapes and photos"
+msgstr "风景和照片"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:43
+msgid "Driving games"
+msgstr "驾驶游戏"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:44
+msgid "Battle arenas"
+msgstr "战斗竞技场"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:45
+msgid "Office (sRGB)"
+msgstr "办公 (sRGB)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:45
+msgid "Documents, web and apps"
+msgstr "文档、网页和应用"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "Office"
+msgstr "办公"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:56
+msgid "Game (RPG)"
+msgstr "游戏 (RPG)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:89
+#: crates/sumi-gui/qml/AiVisualPanel.qml:182
+#: crates/sumi-gui/qml/AppTweakerPage.qml:233
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+msgid "AI Visual"
+msgstr "AI Visual"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:90
+msgid ""
+"AI Visual looks at what's on this monitor about once a second to pick a "
+"GameVisual mode. The picture stays in memory on this PC; nothing is saved or "
+"sent anywhere."
+msgstr ""
+"AI Visual 约每秒查看一次此显示器上的内容，以选择 GameVisual 模式。画面只保留"
+"在这台电脑的内存中，不会被保存，也不会发送到任何地方。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:91
+msgid "Turn on"
+msgstr "开启"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:129
+msgid "Download the AI model"
+msgstr "下载 AI 模型"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:130
+msgid ""
+"Download the AI Visual model? %1, %2 MB, from huggingface.co (OpenAI CLIP "
+"ViT-B/32, MIT licence). It is checked against its published SHA-256 and kept "
+"in ~/.local/share/sumi/models."
+msgstr ""
+"要下载 AI Visual 模型吗？%1，%2 MB，来自 huggingface.co（OpenAI CLIP ViT-B/"
+"32，MIT 许可证）。下载后会与其公布的 SHA-256 进行校验，并保存在 ~/.local/"
+"share/sumi/models。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:132
+#: crates/sumi-gui/qml/UserCenterPage.qml:291
+msgid "Download"
+msgstr "下载"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+msgid "Remove the AI model"
+msgstr "移除 AI 模型"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+msgid ""
+"Remove the AI Visual model from this PC? You can download it again later."
+msgstr "要从这台电脑移除 AI Visual 模型吗？以后可以重新下载。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+#: crates/sumi-gui/qml/AiVisualPanel.qml:251
+msgid "Remove"
+msgstr "移除"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:170
+msgid "AI Visual mode settings"
+msgstr "AI Visual 模式设置"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:208
+msgid "AI model"
+msgstr "AI 模型"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:220
+msgid "Download (%1 MB)"
+msgstr "下载（%1 MB）"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:230
+msgid "Downloading the model"
+msgstr "正在下载模型"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:232
+#: crates/sumi-gui/qml/UserCenterPage.qml:282
+msgid "%1 of %2 MB"
+msgstr "%1 / %2 MB"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:239
+msgid "AI model installed (%1 MB)"
+msgstr "AI 模型已安装（%1 MB）"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:258
+msgid "This sumid has no AI Visual; update it."
+msgstr "此 sumid 不支持 AI Visual，请更新。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:269
+msgid "Show Notifications"
+msgstr "显示通知"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:321
+msgid "Others:"
+msgstr "其他："
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:331
+msgid "Remain unchanged"
+msgstr "保持不变"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:340
+msgid "Assign my preference:"
+msgstr "指定我的偏好："
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:362
+msgid "Now seeing"
+msgstr "当前识别"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:392
+msgid "Game"
+msgstr "游戏"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:399
+msgid "Confidence"
+msgstr "置信度"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:407
+msgid "unchanged"
+msgstr "不变"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:407
+msgid "Mode: %1"
+msgstr "模式：%1"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:418
+msgid "Paused: %1"
+msgstr "已暂停：%1"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:438
+msgid "Preview: AI Visual is off, so nothing is switched."
+msgstr "预览：AI Visual 已关闭，因此不会切换任何模式。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:438
+msgid "Download the model to try AI Visual."
+msgstr "请先下载模型，再试用 AI Visual。"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:453
+#: crates/sumi-gui/qml/GameVisualPage.qml:389 crates/sumi-gui/qml/Store.qml:359
+msgid "Reset"
+msgstr "重置"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:458
+msgid "Close"
+msgstr "关闭"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:7 crates/sumi-gui/qml/Main.qml:378
+#: crates/sumi-gui/qml/Sidebar.qml:137
+msgid "Application Settings"
+msgstr "应用程序设置"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:38
+msgid "Text files (*.txt)"
+msgstr "文本文件 (*.txt)"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:38
+#: crates/sumi-gui/qml/FileChooser.qml:12
+#: crates/sumi-gui/qml/FileChooser.qml:19
+msgid "All files (*)"
+msgstr "所有文件 (*)"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:87
+msgid "System language"
+msgstr "系统语言"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:88
+msgid "Same as the monitor menu"
+msgstr "与显示器菜单相同"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Not running"
+msgstr "未运行"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Connected, read-only"
+msgstr "已连接，只读"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Connected"
+msgstr "已连接"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:127
+msgid "Version"
+msgstr "版本"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:128
+msgid "The version of this app."
+msgstr "此应用的版本。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:140
+msgid "Daemon"
+msgstr "守护进程"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:141
+msgid "sumid talks to the monitor; this app only talks to sumid."
+msgstr "sumid 负责与显示器通信；此应用只与 sumid 通信。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:163
+msgid "Language"
+msgstr "语言"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:164
+msgid "The language of Sumi's windows."
+msgstr "Sumi 窗口的语言。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:179
+msgid "Restart Sumi to change the language"
+msgstr "重启 Sumi 以更改语言"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:183
+msgid "Restart"
+msgstr "重启"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:190
+msgid "Start on login"
+msgstr "登录时启动"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:191
+msgid "Opens Sumi minimised when you log in."
+msgstr "登录时以最小化方式打开 Sumi。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:207
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:208
+msgid ""
+"Saves a text file with the app, daemon and monitor state for a bug report."
+msgstr "将应用、守护进程和显示器的状态保存为文本文件，用于提交错误报告。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:213
+msgid "Collecting…"
+msgstr "正在收集…"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:213
+msgid "Export diagnostics"
+msgstr "导出诊断信息"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:221
+msgid "User manual"
+msgstr "用户手册"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:222
+msgid "How to use Sumi, step by step."
+msgstr "分步了解如何使用 Sumi。"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:227
+msgid "Open"
+msgstr "打开"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:11 crates/sumi-gui/qml/Sidebar.qml:31
+msgid "App Tweaker"
+msgstr "应用调校"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:37
+msgid "Recently used"
+msgstr "最近使用"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:45
+msgid "Installed apps"
+msgstr "已安装的应用"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:154
+msgid "Switch GameVisual mode automatically when an application gets focus."
+msgstr "当应用程序获得焦点时，自动切换 GameVisual 模式。"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:165
+#: crates/sumi-gui/qml/UserCenterPage.qml:112
+msgid "On"
+msgstr "开"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:165
+#: crates/sumi-gui/qml/GameVisualPage.qml:452
+#: crates/sumi-gui/qml/UserCenterPage.qml:112
+msgid "Off"
+msgstr "关"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:184
+msgid "App"
+msgstr "应用"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:192
+msgid "Mode"
+msgstr "模式"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:224
+msgid "Default Setting"
+msgstr "默认设置"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:243
+msgid "Unlisted apps follow AI Visual"
+msgstr "未列出的应用跟随 AI Visual"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:254
+msgid "No change"
+msgstr "不更改"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:276
+msgid "Choose an app"
+msgstr "选择应用"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:317
+msgid "Add"
+msgstr "添加"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:326
+msgid "Settings conflict: %1"
+msgstr "设置冲突：%1"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:342
+msgid "Restore the previous mode when the app loses focus"
+msgstr "应用失去焦点时恢复之前的模式"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:343
+#: crates/sumi-gui/qml/AppTweakerPage.qml:360 crates/sumi-gui/qml/Main.qml:10
+#: crates/sumi-gui/qml/Main.qml:185 crates/sumi-gui/qml/Main.qml:199
+#: crates/sumi-gui/qml/Sidebar.qml:61
+msgid "Sumi"
+msgstr "Sumi"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:344
+msgid "Without this the mode of the last app stays on."
+msgstr "否则，最后一个应用的模式会一直保持开启。"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:359
+msgid "Turn HDR off when an app's mode needs SDR"
+msgstr "当应用的模式需要 SDR 时关闭 HDR"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:361
+msgid "GameVisual modes other than HDR only apply while HDR is off."
+msgstr "除 HDR 以外的 GameVisual 模式仅在 HDR 关闭时生效。"
+
+#: crates/sumi-gui/qml/ComboRow.qml:22
+msgid "Not available"
+msgstr "不可用"
+
+#: crates/sumi-gui/qml/ConfirmDialog.qml:12 crates/sumi-gui/qml/Main.qml:469
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+#: crates/sumi-gui/qml/Store.qml:435
+msgid "Confirm"
+msgstr "确认"
+
+#: crates/sumi-gui/qml/ConfirmDialog.qml:13 crates/sumi-gui/qml/Main.qml:470
+msgid "Cancel"
+msgstr "取消"
+
+#: crates/sumi-gui/qml/FileChooser.qml:12
+#: crates/sumi-gui/qml/FileChooser.qml:19
+msgid "Settings files (*.json)"
+msgstr "设置文件 (*.json)"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:11 crates/sumi-gui/qml/Sidebar.qml:24
+msgid "GamePlus"
+msgstr "GamePlus"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:15
+msgid "Crosshair"
+msgstr "准星"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:16
+msgid "Timer"
+msgstr "计时器"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:17
+msgid "FPS Counter"
+msgstr "FPS 计数器"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:18
+msgid "Display Alignment"
+msgstr "显示器对齐"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:54
+#: crates/sumi-gui/qml/GameVisualPage.qml:251
+msgid "Select Mode"
+msgstr "选择模式"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:92
+msgid "Select Mode Style"
+msgstr "选择模式样式"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:211
+msgid "Set GamePlus Position"
+msgstr "设置 GamePlus 位置"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:222
+msgid "Not available for the alignment grid."
+msgstr "对齐网格不可用。"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:222
+msgid "Moves the overlay that is on."
+msgstr "移动当前开启的叠加层。"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:9
+#: crates/sumi-gui/qml/MultiScreenPage.qml:434
+#: crates/sumi-gui/qml/Sidebar.qml:23
+msgid "GameVisual"
+msgstr "GameVisual"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:116
+msgid "Dolby Vision"
+msgstr "Dolby Vision"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:203
+msgid "Settings imported"
+msgstr "已导入设置"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:203
+msgid "Nothing needed to change."
+msgstr "无需更改。"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:214
+msgid "mode %1"
+msgstr "模式 %1"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "Switch mode"
+msgstr "切换模式"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "This file is for %1. Switch to it and apply?"
+msgstr "此文件适用于 %1。要切换到该模式并应用吗？"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "Switch and apply"
+msgstr "切换并应用"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:223
+msgid "Import failed"
+msgstr "导入失败"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:241
+msgid "Mode Sync"
+msgstr "模式同步"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:263
+msgid "Advertised: %1"
+msgstr "显示器上报：%1"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+msgid "HDR Dolby Vision"
+msgstr "HDR Dolby Vision"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+#: crates/sumi-gui/qml/UserCenterPage.qml:102
+#: crates/sumi-gui/qml/UserCenterPage.qml:134
+msgid "HDR"
+msgstr "HDR"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:344
+msgid "%1 mode settings"
+msgstr "%1 模式设置"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:344
+msgid "Mode settings"
+msgstr "模式设置"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:399
+msgid "Compare"
+msgstr "对比"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:419
+msgid "Import"
+msgstr "导入"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:425
+msgid "Export"
+msgstr "导出"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:437
+msgid "Image"
+msgstr "图像"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:442
+#: crates/sumi-gui/qml/UserCenterPage.qml:133
+msgid "Brightness"
+msgstr "亮度"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:443
+msgid "Contrast"
+msgstr "对比度"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:444
+msgid "Variable OD"
+msgstr "可变 OD"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:451
+msgid "Blue Light Filter"
+msgstr "蓝光过滤"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:454
+msgid "Shadow Boost"
+msgstr "暗部增强"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:455
+msgid "ASCR"
+msgstr "ASCR"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:456
+msgid "Sharpness"
+msgstr "锐度"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:467
+msgid "Color"
+msgstr "色彩"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:472
+msgid "Saturation"
+msgstr "饱和度"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:473
+msgid "Hue"
+msgstr "色相"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:474
+msgid "Color Temp."
+msgstr "色温"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:475
+msgid "Gamma"
+msgstr "伽马"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:12 crates/sumi-gui/qml/Sidebar.qml:30
+msgid "HotKey"
+msgstr "热键"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:43
+msgid "Not set"
+msgstr "未设置"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:74
+msgid "Enable hot keys"
+msgstr "启用热键"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:98
+msgid "Step"
+msgstr "步长"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:99
+msgid "How far brightness, contrast and saturation move for each key press."
+msgstr "每按一次键，亮度、对比度和饱和度变化的幅度。"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:133
+msgid "EZ OSD"
+msgstr "EZ OSD"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:143
+msgid ""
+"Drive the monitor's own menu from the keyboard: bind “EZ OSD: open the "
+"monitor menu” and the arrow, enter and back actions below, then use them "
+"like the monitor's joystick."
+msgstr ""
+"用键盘操控显示器自带的菜单：绑定“EZ OSD：打开显示器菜单”以及下方的方向、确认"
+"和返回操作，然后像使用显示器的摇杆一样使用它们。"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:153
+msgid "Got it"
+msgstr "知道了"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:165
+msgid "Gamepad EZ OSD"
+msgstr "游戏手柄 EZ OSD"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:166
+msgid ""
+"Hold LB + RB + LT + RT to start, then D-pad to move, A to select, B to go "
+"back."
+msgstr "按住 LB + RB + LT + RT 开始，然后用方向键移动、A 键选择、B 键返回。"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:193
+msgid "Action"
+msgstr "操作"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:203
+msgid "Keys"
+msgstr "按键"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:263
+msgid "Test"
+msgstr "测试"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:278
+msgid "KDE global shortcuts aren't available."
+msgstr "KDE 全局快捷键不可用。"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:302
+msgid "Set keys in System Settings"
+msgstr "在系统设置中设置按键"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:315
+msgid "Keys are set under Shortcuts › Sumi; nothing is bound by default."
+msgstr "按键在“快捷键 › Sumi”下设置；默认不绑定任何按键。"
+
+#: crates/sumi-gui/qml/Main.qml:109
+msgid "Monitor not responding"
+msgstr "显示器无响应"
+
+#: crates/sumi-gui/qml/Main.qml:110
+msgid ""
+"%1 was found but doesn't answer DDC/CI. Turn on DDC/CI in the monitor's menu "
+"(System Setup) and check that /dev/i2c-* is accessible."
+msgstr ""
+"找到了 %1，但它不响应 DDC/CI。请在显示器菜单（系统设置）中开启 DDC/CI，并检"
+"查 /dev/i2c-* 是否可访问。"
+
+#: crates/sumi-gui/qml/Main.qml:185
+msgid "Sumi keeps running in the tray"
+msgstr "Sumi 将在托盘中继续运行"
+
+#: crates/sumi-gui/qml/Main.qml:207
+msgid "Show Sumi"
+msgstr "显示 Sumi"
+
+#: crates/sumi-gui/qml/Main.qml:211
+msgid "Quit"
+msgstr "退出"
+
+#: crates/sumi-gui/qml/Main.qml:355
+msgid "No supported monitor found"
+msgstr "未找到受支持的显示器"
+
+#: crates/sumi-gui/qml/Main.qml:363
+msgid ""
+"Connect the monitor with a DDC/CI-capable cable and enable DDC/CI in its "
+"menu."
+msgstr "请使用支持 DDC/CI 的线缆连接显示器，并在其菜单中启用 DDC/CI。"
+
+#: crates/sumi-gui/qml/Main.qml:390
+msgid "Read-only daemon: changes are not sent"
+msgstr "只读守护进程：更改不会被发送"
+
+#: crates/sumi-gui/qml/Main.qml:408
+msgid "Sumi can't reach its daemon"
+msgstr "Sumi 无法连接到其守护进程"
+
+#: crates/sumi-gui/qml/Main.qml:416
+msgid "sumid isn't running. Start it with:"
+msgstr "sumid 未运行。请使用以下命令启动："
+
+#: crates/sumi-gui/qml/Main.qml:430
+msgid "systemctl --user start sumid"
+msgstr "systemctl --user start sumid"
+
+#: crates/sumi-gui/qml/Main.qml:440
+msgid "Copy command"
+msgstr "复制命令"
+
+#: crates/sumi-gui/qml/Main.qml:446 crates/sumi-gui/qml/PageBase.qml:67
+msgid "Try again"
+msgstr "重试"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:9 crates/sumi-gui/qml/Sidebar.qml:29
+msgid "MultiScreen"
+msgstr "多屏幕"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:49
+msgid "Custom"
+msgstr "自定义"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:50
+#: crates/sumi-gui/qml/MultiScreenPage.qml:270
+msgid "None"
+msgstr "无"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:52
+msgid "Layout %1"
+msgstr "布局 %1"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:127
+msgid "Select Function"
+msgstr "选择功能"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:139
+#: crates/sumi-gui/qml/MultiScreenPage.qml:168
+msgid "MultiFrame"
+msgstr "MultiFrame"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:146
+#: crates/sumi-gui/qml/MultiScreenPage.qml:347
+msgid "PIP/PBP"
+msgstr "PIP/PBP"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:154
+#: crates/sumi-gui/qml/MultiScreenPage.qml:470
+msgid "KVM"
+msgstr "KVM"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:174
+msgid "Screen"
+msgstr "屏幕"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:301
+msgid "Hold Shift while dragging a window to drop it into a zone (KDE tiling)."
+msgstr "拖动窗口时按住 Shift，可将其放入分区（KDE 平铺）。"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:322
+msgid "MultiFrame needs KDE Plasma 6."
+msgstr "MultiFrame 需要 KDE Plasma 6。"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:390
+msgid "Window A"
+msgstr "窗口 A"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:391
+msgid "Window B"
+msgstr "窗口 B"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:414
+msgid "Source"
+msgstr "输入源"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:456
+#: crates/sumi-gui/qml/OledCarePage.qml:113 crates/sumi-gui/qml/Store.qml:370
+#: crates/sumi-gui/qml/Store.qml:391
+msgid "Apply"
+msgstr "应用"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:475
+msgid "Choose which computer the monitor's USB hub belongs to."
+msgstr "选择显示器的 USB 集线器归属于哪台电脑。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:8 crates/sumi-gui/qml/Sidebar.qml:27
+msgid "OLED Care"
+msgstr "OLED 护理"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:45
+msgid "Screen Dimming Control"
+msgstr "屏幕减光控制"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:46
+msgid ""
+"Slowly dims a picture that stays still, so no pixel burns at full brightness."
+msgstr "缓慢调暗长时间静止的画面，避免任何像素在最高亮度下烧屏。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:52
+msgid "Logo Detection"
+msgstr "Logo 检测"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:53
+msgid ""
+"Spots bright logos and HUD elements that don't move and lowers their "
+"brightness."
+msgstr "识别固定不动的明亮 Logo 和 HUD 元素，并降低其亮度。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:59
+msgid "Taskbar Detection"
+msgstr "任务栏检测"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:60
+msgid "Recognises a fixed taskbar at the screen edge and dims it."
+msgstr "识别位于屏幕边缘的固定任务栏并将其调暗。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:66
+msgid "Boundary Detection"
+msgstr "边界检测"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:67
+msgid "Finds the borders of static windows and softens the light along them."
+msgstr "找出静态窗口的边框，并柔化沿边框的光线。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:73
+msgid "Outer Dimming Control"
+msgstr "外围减光控制"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:74
+msgid "Lowers brightness toward the outer area of the panel."
+msgstr "朝面板外围区域逐步降低亮度。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:80
+msgid "Global Dimming Control"
+msgstr "全局减光控制"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:81
+msgid ""
+"Lets the monitor adjust brightness across the whole panel for the content."
+msgstr "让显示器根据内容调整整个面板的亮度。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:87
+msgid "Uniform Brightness"
+msgstr "均匀亮度"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:88
+msgid "Keeps the brightness level steady from scene to scene."
+msgstr "让亮度水平在不同场景之间保持稳定。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:93
+msgid "Target Mode"
+msgstr "目标模式"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:94
+msgid "Dims every window except the one you are using."
+msgstr "将除当前使用的窗口之外的所有窗口调暗。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:107
+msgid "Pixel Cleaning"
+msgstr "像素清洁"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:108
+msgid ""
+"A panel refresh cycle of about six minutes; the screen goes dark while it "
+"runs."
+msgstr "约六分钟的面板刷新周期，运行期间屏幕会变黑。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:122
+msgid "Pixel Cleaning Reminder"
+msgstr "像素清洁提醒"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:123
+msgid "How often the monitor reminds you to run pixel cleaning."
+msgstr "显示器多久提醒你运行一次像素清洁。"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:129
+msgid "Screen Move"
+msgstr "屏幕移动"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:130
+msgid ""
+"Shifts the image by a few pixels now and then so no pixel stays lit in one "
+"place."
+msgstr "不时将图像移动几个像素，使任何像素都不会一直在同一位置发光。"
+
+#: crates/sumi-gui/qml/PageBase.qml:53
+msgid "The monitor didn't answer."
+msgstr "显示器没有响应。"
+
+#: crates/sumi-gui/qml/PageBase.qml:60
+msgid "Check that DDC/CI is enabled in the monitor's OSD, then try again."
+msgstr "请确认已在显示器的 OSD 中启用 DDC/CI，然后重试。"
+
+#: crates/sumi-gui/qml/RogToggle.qml:31 crates/sumi-gui/qml/RogToggle.qml:45
+msgctxt "@label state of a switch"
+msgid "ON"
+msgstr "开"
+
+#: crates/sumi-gui/qml/RogToggle.qml:38 crates/sumi-gui/qml/RogToggle.qml:45
+msgctxt "@label state of a switch"
+msgid "OFF"
+msgstr "关"
+
+#: crates/sumi-gui/qml/Sidebar.qml:32 crates/sumi-gui/qml/SystemPage.qml:11
+msgid "System Settings"
+msgstr "系统设置"
+
+#: crates/sumi-gui/qml/Sidebar.qml:74
+msgid "Monitor settings"
+msgstr "显示器设置"
+
+#: crates/sumi-gui/qml/Sidebar.qml:95
+msgid "No monitor"
+msgstr "无显示器"
+
+#: crates/sumi-gui/qml/Sidebar.qml:130 crates/sumi-gui/qml/UserCenterPage.qml:7
+msgid "User Center"
+msgstr "用户中心"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid not running"
+msgstr "sumid 未运行"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid · read-only"
+msgstr "sumid · 只读"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid connected"
+msgstr "sumid 已连接"
+
+#: crates/sumi-gui/qml/Store.qml:355
+msgid "Turn HDR off"
+msgstr "关闭 HDR"
+
+#: crates/sumi-gui/qml/Store.qml:355 crates/sumi-gui/qml/Store.qml:368
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:374
+#: crates/sumi-gui/qml/Store.qml:387 crates/sumi-gui/qml/Store.qml:393
+msgid "Switch"
+msgstr "切换"
+
+#: crates/sumi-gui/qml/Store.qml:355
+msgid "Switching to %1 turns HDR off for this monitor."
+msgstr "切换到 %1 会关闭此显示器的 HDR。"
+
+#: crates/sumi-gui/qml/Store.qml:359
+msgid "Reset mode"
+msgstr "重置模式"
+
+#: crates/sumi-gui/qml/Store.qml:359
+msgid "Reset the current GameVisual mode to its defaults?"
+msgstr "要将当前 GameVisual 模式重置为默认值吗？"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid "Pixel cleaning"
+msgstr "像素清洁"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid "Start"
+msgstr "开始"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid ""
+"Pixel cleaning takes about 6 minutes. The screen turns off while it runs. "
+"Don't unplug the monitor."
+msgstr "像素清洁大约需要 6 分钟，运行期间屏幕会关闭。请勿拔掉显示器。"
+
+#: crates/sumi-gui/qml/Store.qml:368
+msgid "Change HDR format"
+msgstr "更改 HDR 格式"
+
+#: crates/sumi-gui/qml/Store.qml:368
+msgid ""
+"Switching between HDR10 and Dolby Vision makes the monitor reconnect; the "
+"screen goes dark for a moment."
+msgstr "在 HDR10 和 Dolby Vision 之间切换会使显示器重新连接，屏幕会短暂变黑。"
+
+#: crates/sumi-gui/qml/Store.qml:370 crates/sumi-gui/qml/Store.qml:391
+msgid "Change layout"
+msgstr "更改布局"
+
+#: crates/sumi-gui/qml/Store.qml:370 crates/sumi-gui/qml/Store.qml:391
+msgid "The monitor will briefly disconnect while the layout changes."
+msgstr "更改布局期间，显示器会短暂断开连接。"
+
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:387
+msgid "Switch USB host"
+msgstr "切换 USB 主机"
+
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:387
+msgid ""
+"Peripherals on the monitor's USB hub (keyboard, mouse…) will move to the "
+"other computer."
+msgstr "接在显示器 USB 集线器上的外设（键盘、鼠标等）将转移到另一台电脑。"
+
+#: crates/sumi-gui/qml/Store.qml:374
+msgid "Switch input"
+msgstr "切换输入"
+
+#: crates/sumi-gui/qml/Store.qml:374
+msgid "This PC will lose the picture until you switch back on the monitor."
+msgstr "在你于显示器上切换回来之前，这台电脑将没有画面。"
+
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+msgid "Power saving"
+msgstr "节能"
+
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+msgid ""
+"Power saving mode locks most picture settings; only brightness and contrast "
+"stay adjustable."
+msgstr "节能模式会锁定大部分画面设置，只有亮度和对比度仍可调节。"
+
+#: crates/sumi-gui/qml/Store.qml:393
+msgid "Change HDR"
+msgstr "更改 HDR"
+
+#: crates/sumi-gui/qml/Store.qml:393
+msgid ""
+"Turning HDR on or off makes the monitor reconnect; the screen goes dark for "
+"a moment."
+msgstr "开启或关闭 HDR 会使显示器重新连接，屏幕会短暂变黑。"
+
+#: crates/sumi-gui/qml/Store.qml:440
+msgid "OK"
+msgstr "确定"
+
+#: crates/sumi-gui/qml/SystemPage.qml:34
+msgid "Lowers power use; most picture settings are locked."
+msgstr "降低功耗；大部分画面设置会被锁定。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:34
+msgid "Full picture controls and performance."
+msgstr "完整的画面控制和性能。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:56
+msgid "Display HDR"
+msgstr "显示 HDR"
+
+#: crates/sumi-gui/qml/SystemPage.qml:57
+msgid "Turns HDR on in KDE for this monitor."
+msgstr "在 KDE 中为此显示器开启 HDR。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:74
+msgid "Power Settings"
+msgstr "电源设置"
+
+#: crates/sumi-gui/qml/SystemPage.qml:123
+msgid "OSD Language"
+msgstr "OSD 语言"
+
+#: crates/sumi-gui/qml/SystemPage.qml:123
+msgid "Language of the monitor's on-screen menu."
+msgstr "显示器屏幕菜单的语言。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:124
+msgid "OSD Shortcut 1"
+msgstr "OSD 快捷键 1"
+
+#: crates/sumi-gui/qml/SystemPage.qml:124
+msgid "What the first shortcut key on the monitor opens."
+msgstr "显示器上第一个快捷键所打开的内容。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:125
+msgid "OSD Shortcut 2"
+msgstr "OSD 快捷键 2"
+
+#: crates/sumi-gui/qml/SystemPage.qml:125
+msgid "What the second shortcut key on the monitor opens."
+msgstr "显示器上第二个快捷键所打开的内容。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:126
+msgid "Input Select"
+msgstr "输入选择"
+
+#: crates/sumi-gui/qml/SystemPage.qml:126
+msgid "The video input the monitor shows."
+msgstr "显示器显示的视频输入。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:127
+msgid "Volume"
+msgstr "音量"
+
+#: crates/sumi-gui/qml/SystemPage.qml:127
+msgid "Speaker and headphone output level."
+msgstr "扬声器和耳机的输出音量。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:128
+msgid "Mute"
+msgstr "静音"
+
+#: crates/sumi-gui/qml/SystemPage.qml:128
+msgid "Silences the monitor's audio output."
+msgstr "将显示器的音频输出静音。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:129
+msgid "Auto Input Detection"
+msgstr "自动输入检测"
+
+#: crates/sumi-gui/qml/SystemPage.qml:129
+msgid "Switches to a source when it starts sending a signal."
+msgstr "当某个信号源开始发送信号时，切换到该信号源。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:130
+msgid "Adaptive-Sync (VRR)"
+msgstr "Adaptive-Sync (VRR)"
+
+#: crates/sumi-gui/qml/SystemPage.qml:130
+msgid "Matches the refresh rate to the frame rate of the game."
+msgstr "使刷新率与游戏的帧率保持一致。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:139
+msgid "Desktop"
+msgstr "桌面"
+
+#: crates/sumi-gui/qml/SystemPage.qml:155
+msgid "Auto-hide panel"
+msgstr "自动隐藏面板"
+
+#: crates/sumi-gui/qml/SystemPage.qml:156
+msgid ""
+"Hides the Plasma panel when you aren't using it, so it doesn't burn into an "
+"OLED panel."
+msgstr "不使用时隐藏 Plasma 面板，以免在 OLED 面板上烧屏。"
+
+#: crates/sumi-gui/qml/SystemPage.qml:168
+msgid "Dark theme"
+msgstr "深色主题"
+
+#: crates/sumi-gui/qml/SystemPage.qml:169
+msgid ""
+"Uses a dark colour scheme: fewer bright pixels, less wear on an OLED panel."
+msgstr "使用深色配色方案：亮像素更少，对 OLED 面板的损耗更小。"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:91
+msgid "%1 Hz"
+msgstr "%1 Hz"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:95
+msgid "%1 h"
+msgstr "%1 小时"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:126
+msgid "Model"
+msgstr "型号"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:127
+msgid "Firmware"
+msgstr "固件"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:128
+msgid "VCP scheme"
+msgstr "VCP 方案"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:129
+msgid "Refresh rate"
+msgstr "刷新率"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:130
+msgid "Display usage time"
+msgstr "显示器使用时间"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:131
+msgid "Input"
+msgstr "输入"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:132
+msgid "GameVisual mode"
+msgstr "GameVisual 模式"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:135
+msgid "HDR format"
+msgstr "HDR 格式"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:136
+msgid "I2C bus"
+msgstr "I2C 总线"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:137
+msgid "Connector"
+msgstr "接口"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:141
+msgid "Sumi device info"
+msgstr "Sumi 设备信息"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:153
+msgid "Device"
+msgstr "设备"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:201
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:212
+msgid "Copied to the clipboard"
+msgstr "已复制到剪贴板"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:222
+msgid "Copy"
+msgstr "复制"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:266
+msgid "Checking…"
+msgstr "正在检查…"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:267
+msgid "Up to date"
+msgstr "已是最新"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:268
+msgid "%1 is available"
+msgstr "%1 可用"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:269
+msgid "Saved to %1"
+msgstr "已保存到 %1"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:271
+msgid ""
+"Asks ASUS's download server whether newer firmware exists; only the model "
+"name is sent."
+msgstr "向 ASUS 下载服务器查询是否有更新的固件；仅发送型号名称。"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:280
+msgid "Downloading %1"
+msgstr "正在下载 %1"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:291
+msgid "Open folder"
+msgstr "打开文件夹"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:312
+msgid ""
+"Run ASUS's update tool from this file on Windows; Sumi doesn't flash "
+"firmware."
+msgstr "请在 Windows 上通过此文件运行 ASUS 更新工具；Sumi 不会刷写固件。"
+
+#: crates/sumi-gui/src/i18n.cpp:27
+msgid "sumid isn't running — start it with: systemctl --user start sumid"
+msgstr "sumid 未运行 — 请使用以下命令启动：systemctl --user start sumid"
+
+#: crates/sumi-gui/src/i18n.cpp:32
+msgid "D-Bus: %1"
+msgstr "D-Bus: %1"
+
+#: po/daemon-strings.cpp:12
+msgid "Night Vision"
+msgstr "夜视"
+
+#: po/daemon-strings.cpp:13
+msgid "HDR mode"
+msgstr "HDR 模式"
+
+#: po/daemon-strings.cpp:14
+msgid "Cinema HDR"
+msgstr "影院 HDR"
+
+#: po/daemon-strings.cpp:15
+msgid "Gaming HDR"
+msgstr "游戏 HDR"
+
+#: po/daemon-strings.cpp:16
+msgid "Console HDR"
+msgstr "主机 HDR"
+
+#: po/daemon-strings.cpp:17
+msgid "True Black 400"
+msgstr "True Black 400"
+
+#: po/daemon-strings.cpp:18
+msgid "True Black 500"
+msgstr "True Black 500"
+
+#: po/daemon-strings.cpp:19
+msgid "Dolby Vision Bright"
+msgstr "Dolby Vision 明亮"
+
+#: po/daemon-strings.cpp:20
+msgid "Dolby Vision Dark"
+msgstr "Dolby Vision 黑暗"
+
+#: po/daemon-strings.cpp:21
+msgid "Dolby Vision Gaming"
+msgstr "Dolby Vision 游戏"
+
+#: po/daemon-strings.cpp:22
+msgid "Dolby Vision Source only"
+msgstr "Dolby Vision 仅源端"
+
+#: po/daemon-strings.cpp:29
+msgid "Level 1"
+msgstr "等级 1"
+
+#: po/daemon-strings.cpp:30
+msgid "Level 2"
+msgstr "等级 2"
+
+#: po/daemon-strings.cpp:31
+msgid "Level 3"
+msgstr "等级 3"
+
+#: po/daemon-strings.cpp:32
+msgid "Dynamic"
+msgstr "动态"
+
+#: po/daemon-strings.cpp:37
+msgid "4000K"
+msgstr "4000K"
+
+#: po/daemon-strings.cpp:38
+msgid "5000K"
+msgstr "5000K"
+
+#: po/daemon-strings.cpp:39
+msgid "5500K"
+msgstr "5500K"
+
+#: po/daemon-strings.cpp:40
+msgid "6000K"
+msgstr "6000K"
+
+#: po/daemon-strings.cpp:41
+msgid "6500K"
+msgstr "6500K"
+
+#: po/daemon-strings.cpp:42
+msgid "7000K"
+msgstr "7000K"
+
+#: po/daemon-strings.cpp:43
+msgid "7500K"
+msgstr "7500K"
+
+#: po/daemon-strings.cpp:44
+msgid "8000K"
+msgstr "8000K"
+
+#: po/daemon-strings.cpp:45
+msgid "8200K"
+msgstr "8200K"
+
+#: po/daemon-strings.cpp:46
+msgid "9300K"
+msgstr "9300K"
+
+#: po/daemon-strings.cpp:47
+msgid "10000K"
+msgstr "10000K"
+
+#: po/daemon-strings.cpp:48
+msgid "R"
+msgstr "R"
+
+#: po/daemon-strings.cpp:49
+msgid "G"
+msgstr "G"
+
+#: po/daemon-strings.cpp:50
+msgid "B"
+msgstr "B"
+
+#: po/daemon-strings.cpp:52
+msgid "1.8"
+msgstr "1.8"
+
+#: po/daemon-strings.cpp:53
+msgid "2.0"
+msgstr "2.0"
+
+#: po/daemon-strings.cpp:54
+msgid "2.2"
+msgstr "2.2"
+
+#: po/daemon-strings.cpp:55
+msgid "2.4"
+msgstr "2.4"
+
+#: po/daemon-strings.cpp:56
+msgid "2.6"
+msgstr "2.6"
+
+#: po/daemon-strings.cpp:59
+msgid "Reset current mode"
+msgstr "重置当前模式"
+
+#: po/daemon-strings.cpp:60
+msgid "Reset all settings"
+msgstr "重置所有设置"
+
+#: po/daemon-strings.cpp:62
+msgid "Red Dot"
+msgstr "红点"
+
+#: po/daemon-strings.cpp:63
+msgid "Green Dot"
+msgstr "绿点"
+
+#: po/daemon-strings.cpp:64
+msgid "Red Bullseye"
+msgstr "红色靶心"
+
+#: po/daemon-strings.cpp:65
+msgid "Green Bullseye"
+msgstr "绿色靶心"
+
+#: po/daemon-strings.cpp:66
+msgid "Red Rangefinder"
+msgstr "红色测距仪"
+
+#: po/daemon-strings.cpp:67
+msgid "Green Rangefinder"
+msgstr "绿色测距仪"
+
+#: po/daemon-strings.cpp:68
+msgid "Blue Dot"
+msgstr "蓝点"
+
+#: po/daemon-strings.cpp:69
+msgid "Blue Mini Duplex"
+msgstr "蓝色迷你双线"
+
+#: po/daemon-strings.cpp:70
+msgid "Green Mini Duplex"
+msgstr "绿色迷你双线"
+
+#: po/daemon-strings.cpp:71
+msgid "Blue Heavy Duplex"
+msgstr "蓝色粗双线"
+
+#: po/daemon-strings.cpp:72
+msgid "Green Heavy Duplex"
+msgstr "绿色粗双线"
+
+#: po/daemon-strings.cpp:73
+msgid "Style 13"
+msgstr "样式 13"
+
+#: po/daemon-strings.cpp:74
+msgid "Style 14"
+msgstr "样式 14"
+
+#: po/daemon-strings.cpp:75
+msgid "Style 15"
+msgstr "样式 15"
+
+#: po/daemon-strings.cpp:77
+msgid "30:00"
+msgstr "30:00"
+
+#: po/daemon-strings.cpp:78
+msgid "40:00"
+msgstr "40:00"
+
+#: po/daemon-strings.cpp:79
+msgid "50:00"
+msgstr "50:00"
+
+#: po/daemon-strings.cpp:80
+msgid "60:00"
+msgstr "60:00"
+
+#: po/daemon-strings.cpp:81
+msgid "90:00"
+msgstr "90:00"
+
+#: po/daemon-strings.cpp:83
+msgid "Number"
+msgstr "数字"
+
+#: po/daemon-strings.cpp:84
+msgid "Bar Graph"
+msgstr "条形图"
+
+#: po/daemon-strings.cpp:88
+msgid "Up"
+msgstr "上"
+
+#: po/daemon-strings.cpp:89
+msgid "Down"
+msgstr "下"
+
+#: po/daemon-strings.cpp:90
+msgid "Right"
+msgstr "右"
+
+#: po/daemon-strings.cpp:91
+msgid "Left"
+msgstr "左"
+
+#: po/daemon-strings.cpp:101
+msgid "2 hours"
+msgstr "2 小时"
+
+#: po/daemon-strings.cpp:102
+msgid "4 hours"
+msgstr "4 小时"
+
+#: po/daemon-strings.cpp:103
+msgid "8 hours"
+msgstr "8 小时"
+
+#: po/daemon-strings.cpp:105
+msgid "Light"
+msgstr "轻"
+
+#: po/daemon-strings.cpp:106
+msgid "Middle"
+msgstr "中"
+
+#: po/daemon-strings.cpp:107
+msgid "Strong"
+msgstr "强"
+
+#: po/daemon-strings.cpp:109
+msgid "PIP top right"
+msgstr "PIP 右上"
+
+#: po/daemon-strings.cpp:110
+msgid "PIP top left"
+msgstr "PIP 左上"
+
+#: po/daemon-strings.cpp:111
+msgid "PIP bottom right"
+msgstr "PIP 右下"
+
+#: po/daemon-strings.cpp:112
+msgid "PIP bottom left"
+msgstr "PIP 左下"
+
+#: po/daemon-strings.cpp:113
+msgid "PBP 50/50"
+msgstr "PBP 50/50"
+
+#: po/daemon-strings.cpp:114
+msgid "PBP wide left"
+msgstr "PBP 左宽"
+
+#: po/daemon-strings.cpp:115
+msgid "PBP wide right"
+msgstr "PBP 右宽"
+
+#: po/daemon-strings.cpp:116
+msgid "Window A source"
+msgstr "窗口 A 输入源"
+
+#: po/daemon-strings.cpp:117
+msgid "DisplayPort"
+msgstr "DisplayPort"
+
+#: po/daemon-strings.cpp:118
+msgid "DisplayPort 2"
+msgstr "DisplayPort 2"
+
+#: po/daemon-strings.cpp:119
+msgid "HDMI-1"
+msgstr "HDMI-1"
+
+#: po/daemon-strings.cpp:120
+msgid "HDMI-2"
+msgstr "HDMI-2"
+
+#: po/daemon-strings.cpp:121
+msgid "HDMI-3"
+msgstr "HDMI-3"
+
+#: po/daemon-strings.cpp:122
+msgid "HDMI-4"
+msgstr "HDMI-4"
+
+#: po/daemon-strings.cpp:123
+msgid "USB-C"
+msgstr "USB-C"
+
+#: po/daemon-strings.cpp:124
+msgid "USB-C 2"
+msgstr "USB-C 2"
+
+#: po/daemon-strings.cpp:125
+msgid "Window B source"
+msgstr "窗口 B 输入源"
+
+#: po/daemon-strings.cpp:126
+msgid "Window A GameVisual"
+msgstr "窗口 A GameVisual"
+
+#: po/daemon-strings.cpp:127
+msgid "Window B GameVisual"
+msgstr "窗口 B GameVisual"
+
+#: po/daemon-strings.cpp:129
+msgid "Smart KVM"
+msgstr "智能 KVM"
+
+#: po/daemon-strings.cpp:130
+msgid "USB upstream B"
+msgstr "USB 上行端口 B"
+
+#: po/daemon-strings.cpp:131
+msgid "USB upstream C"
+msgstr "USB 上行端口 C"
+
+#: po/daemon-strings.cpp:132
+msgid "Auto KVM"
+msgstr "自动 KVM"
+
+#: po/daemon-strings.cpp:134
+msgid "Standard"
+msgstr "标准"
+
+#: po/daemon-strings.cpp:137
+msgid "English"
+msgstr "English"
+
+#: po/daemon-strings.cpp:138
+msgid "Français"
+msgstr "Français"
+
+#: po/daemon-strings.cpp:139
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: po/daemon-strings.cpp:140
+msgid "Español"
+msgstr "Español"
+
+#: po/daemon-strings.cpp:141
+msgid "Italiano"
+msgstr "Italiano"
+
+#: po/daemon-strings.cpp:142
+msgid "Nederlands"
+msgstr "Nederlands"
+
+#: po/daemon-strings.cpp:143
+msgid "Русский"
+msgstr "Русский"
+
+#: po/daemon-strings.cpp:144
+msgid "Polski"
+msgstr "Polski"
+
+#: po/daemon-strings.cpp:145
+msgid "Čeština"
+msgstr "Čeština"
+
+#: po/daemon-strings.cpp:146
+msgid "Hrvatski"
+msgstr "Hrvatski"
+
+#: po/daemon-strings.cpp:147
+msgid "Magyar"
+msgstr "Magyar"
+
+#: po/daemon-strings.cpp:148
+msgid "Română"
+msgstr "Română"
+
+#: po/daemon-strings.cpp:149
+msgid "Português"
+msgstr "Português"
+
+#: po/daemon-strings.cpp:150
+msgid "Türkçe"
+msgstr "Türkçe"
+
+#: po/daemon-strings.cpp:151
+msgid "简体中文"
+msgstr "简体中文"
+
+#: po/daemon-strings.cpp:152
+msgid "繁體中文"
+msgstr "繁體中文"
+
+#: po/daemon-strings.cpp:153
+msgid "日本語"
+msgstr "日本語"
+
+#: po/daemon-strings.cpp:154
+msgid "한국어"
+msgstr "한국어"
+
+#: po/daemon-strings.cpp:155
+msgid "فارسی"
+msgstr "فارسی"
+
+#: po/daemon-strings.cpp:156
+msgid "ไทย"
+msgstr "ไทย"
+
+#: po/daemon-strings.cpp:157
+msgid "Українська"
+msgstr "Українська"
+
+#: po/daemon-strings.cpp:158
+msgid "Bahasa Indonesia"
+msgstr "Bahasa Indonesia"
+
+#: po/daemon-strings.cpp:159
+msgid "Tiếng Việt"
+msgstr "Tiếng Việt"
+
+#: po/daemon-strings.cpp:166
+msgid "Frame Rate Boost"
+msgstr "帧率提升"
+
+#: po/daemon-strings.cpp:167
+msgid "Customized Settings-1"
+msgstr "自定义设置-1"
+
+#: po/daemon-strings.cpp:168
+msgid "Customized Settings-2"
+msgstr "自定义设置-2"
+
+#: po/daemon-strings.cpp:170
+msgid "OSD Control"
+msgstr "OSD 控制"
+
+#: po/daemon-strings.cpp:172
+msgid "Show"
+msgstr "显示"
+
+#: po/daemon-strings.cpp:173
+msgid "Enter"
+msgstr "确认"
+
+#: po/daemon-strings.cpp:174
+msgid "Back"
+msgstr "返回"
+
+#: po/daemon-strings.cpp:175
+msgid "Muted"
+msgstr "已静音"
+
+#: po/daemon-strings.cpp:176
+msgid "Unmuted"
+msgstr "已取消静音"
+
+#: po/daemon-strings.cpp:179
+msgid "F/W Version"
+msgstr "固件版本"
+
+#: po/daemon-strings.cpp:182
+msgid "EZ OSD: open the monitor menu"
+msgstr "EZ OSD：打开显示器菜单"
+
+#: po/daemon-strings.cpp:183
+msgid "EZ OSD: up"
+msgstr "EZ OSD：上"
+
+#: po/daemon-strings.cpp:184
+msgid "EZ OSD: down"
+msgstr "EZ OSD：下"
+
+#: po/daemon-strings.cpp:185
+msgid "EZ OSD: left"
+msgstr "EZ OSD：左"
+
+#: po/daemon-strings.cpp:186
+msgid "EZ OSD: right"
+msgstr "EZ OSD：右"
+
+#: po/daemon-strings.cpp:187
+msgid "EZ OSD: enter"
+msgstr "EZ OSD：确认"
+
+#: po/daemon-strings.cpp:188
+msgid "EZ OSD: back"
+msgstr "EZ OSD：返回"
+
+#: po/daemon-strings.cpp:189
+msgid "EZ OSD: close the monitor menu"
+msgstr "EZ OSD：关闭显示器菜单"
+
+#: po/daemon-strings.cpp:190
+msgid "Brightness +"
+msgstr "亮度 +"
+
+#: po/daemon-strings.cpp:191
+msgid "Brightness −"
+msgstr "亮度 −"
+
+#: po/daemon-strings.cpp:192
+msgid "Contrast +"
+msgstr "对比度 +"
+
+#: po/daemon-strings.cpp:193
+msgid "Contrast −"
+msgstr "对比度 −"
+
+#: po/daemon-strings.cpp:194
+msgid "Blue Light Filter +"
+msgstr "蓝光过滤 +"
+
+#: po/daemon-strings.cpp:195
+msgid "Blue Light Filter −"
+msgstr "蓝光过滤 −"
+
+#: po/daemon-strings.cpp:196
+msgid "Shadow Boost +"
+msgstr "暗部增强 +"
+
+#: po/daemon-strings.cpp:197
+msgid "Shadow Boost −"
+msgstr "暗部增强 −"
+
+#: po/daemon-strings.cpp:198
+msgid "Saturation +"
+msgstr "饱和度 +"
+
+#: po/daemon-strings.cpp:199
+msgid "Saturation −"
+msgstr "饱和度 −"
+
+#: po/daemon-strings.cpp:200
+msgid "PIP/PBP on/off"
+msgstr "PIP/PBP 开/关"
+
+#: po/daemon-strings.cpp:201
+msgid "KVM: switch USB upstream"
+msgstr "KVM：切换 USB 上行端口"
+
+#: po/daemon-strings.cpp:202
+msgid "Power saving on/off"
+msgstr "节能 开/关"
+
+#: po/daemon-strings.cpp:203
+msgid "Next GameVisual mode"
+msgstr "下一个 GameVisual 模式"
+
+#: po/daemon-strings.cpp:204
+msgid "Previous GameVisual mode"
+msgstr "上一个 GameVisual 模式"
+
+#: po/daemon-strings.cpp:205
+msgid "Target Mode on/off"
+msgstr "目标模式 开/关"
+
+#: po/daemon-strings.cpp:206
+msgid "HDR on/off"
+msgstr "HDR 开/关"
+
+#: po/daemon-strings.cpp:207
+msgid "Top / bottom"
+msgstr "上 / 下"
+
+#: po/daemon-strings.cpp:208
+msgid "Left / right"
+msgstr "左 / 右"
+
+#: po/daemon-strings.cpp:209
+msgid "Wide left, narrow right"
+msgstr "左宽右窄"
+
+#: po/daemon-strings.cpp:210
+msgid "Narrow left, wide right"
+msgstr "左窄右宽"
+
+#: po/daemon-strings.cpp:211
+msgid "Tall top, short bottom"
+msgstr "上大下小"
+
+#: po/daemon-strings.cpp:212
+msgid "Short top, tall bottom"
+msgstr "上小下大"
+
+#: po/daemon-strings.cpp:213
+msgid "Two left, one right"
+msgstr "左二右一"
+
+#: po/daemon-strings.cpp:214
+msgid "One left, two right"
+msgstr "左一右二"
+
+#: po/daemon-strings.cpp:215
+msgid "One top, two bottom"
+msgstr "上一下二"
+
+#: po/daemon-strings.cpp:216
+msgid "Two top, one bottom"
+msgstr "上二下一"
+
+#: po/daemon-strings.cpp:217
+msgid "Three columns"
+msgstr "三列"
+
+#: po/daemon-strings.cpp:218
+msgid "Three rows"
+msgstr "三行"
+
+#: po/daemon-strings.cpp:219
+msgid "Four quadrants"
+msgstr "四分区"
+
+#: po/daemon-strings.cpp:222
+msgid "screen locked"
+msgstr "屏幕已锁定"
+
+#: po/daemon-strings.cpp:223
+msgid "display off"
+msgstr "显示已关闭"
+
+#: po/daemon-strings.cpp:224
+msgid "an App Tweaker rule covers the focused app"
+msgstr "应用调校规则已覆盖当前应用"
+
+#: po/daemon-strings.cpp:225
+msgid "HDR is on"
+msgstr "HDR 已开启"
+
+#: contrib/io.github.jenaridev.sumi.desktop:5
+msgid "Picture modes, OLED care and GamePlus for ASUS monitors"
+msgstr "适用于 ASUS 显示器的画面模式、OLED 护理和 GamePlus"
+
+#: contrib/io.github.jenaridev.sumi.desktop:9
+msgid "asus;rog;monitor;display;ddc;oled;gamevisual;gameplus;brightness;"
+msgstr ""
+"asus;rog;monitor;display;ddc;oled;gamevisual;gameplus;brightness;显示器;屏幕;"
+"亮度;设置;"
+
+#~ msgid "Project page"
+#~ msgstr "项目主页"
+
+#~ msgid "Source code, releases and bug reports."
+#~ msgstr "源代码、发行版和错误报告。"
+
+#~ msgid "Coming soon"
+#~ msgstr "即将推出"
+
+#~ msgid "Settings"
+#~ msgstr "设置"

@@ -1,0 +1,13 @@
+[package]
+name = "sumi-ddc"
+description = "i2c-dev DDC/CI transport and monitor discovery"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+sumi-proto.workspace = true
+thiserror.workspace = true
+libc.workspace = true

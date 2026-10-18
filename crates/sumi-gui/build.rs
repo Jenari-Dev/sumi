@@ -1,0 +1,84 @@
+use cxx_qt_build::{CxxQtBuilder, QmlFile, QmlModule};
+
+fn main() {
+    let builder = CxxQtBuilder::new_qml_module(
+        QmlModule::new("io.github.jenaridev.sumi")
+            .qml_file(QmlFile::from("qml/Theme.qml").singleton(true))
+            .qml_file(QmlFile::from("qml/Overlay.qml").singleton(true))
+            .qml_file(QmlFile::from("qml/IconData.qml").singleton(true))
+            .qml_file(QmlFile::from("qml/Languages.qml").singleton(true))
+            .qml_files([
+                "qml/Main.qml",
+                "qml/AiBubble.qml",
+                "qml/AiBubbleModel.qml",
+                "qml/AiBubbleOverlay.qml",
+                "qml/AiBubbleText.qml",
+                "qml/AiDragArea.qml",
+                "qml/AiLayerWindow.qml",
+                "qml/AiOrb.qml",
+                "qml/AiVisualPanel.qml",
+                "qml/AiWindow.qml",
+                "qml/AppIcon.qml",
+                "qml/AppSettingsPage.qml",
+                "qml/AppTweakerPage.qml",
+                "qml/ArrowButton.qml",
+                "qml/Background.qml",
+                "qml/Brackets.qml",
+                "qml/Card.qml",
+                "qml/ComboRow.qml",
+                "qml/ConfirmDialog.qml",
+                "qml/CrosshairGlyph.qml",
+                "qml/FileChooser.qml",
+                "qml/GamePlusPage.qml",
+                "qml/GameVisualPage.qml",
+                "qml/Host.qml",
+                "qml/HotKeyPage.qml",
+                "qml/Icon.qml",
+                "qml/LayoutThumb.qml",
+                "qml/ModeTile.qml",
+                "qml/MultiScreenPage.qml",
+                "qml/OledCarePage.qml",
+                "qml/OptionTile.qml",
+                "qml/PageBase.qml",
+                "qml/RogButton.qml",
+                "qml/RogCheckBox.qml",
+                "qml/RogCombo.qml",
+                "qml/RogPill.qml",
+                "qml/RogRadio.qml",
+                "qml/RogScrollBar.qml",
+                "qml/RogSlider.qml",
+                "qml/RogToggle.qml",
+                "qml/ScoreBar.qml",
+                "qml/SettingRow.qml",
+                "qml/SideTab.qml",
+                "qml/Sidebar.qml",
+                "qml/SliderRow.qml",
+                "qml/Spinner.qml",
+                "qml/Store.qml",
+                "qml/StripArrow.qml",
+                "qml/SystemPage.qml",
+                "qml/TextCheck.qml",
+                "qml/TitleBar.qml",
+                "qml/Toast.qml",
+                "qml/ToggleRow.qml",
+                "qml/UserCenterPage.qml",
+                "qml/ZoneThumb.qml",
+            ]),
+    )
+    .qrc_resources(["qml/tray.svg"])
+    .files(["src/backend.rs", "src/i18n.rs", "src/clipboard.rs", "src/app.rs"])
+    .include_dir("src")
+    .cpp_file("src/i18n.cpp")
+    .cpp_file("src/clipboard.cpp")
+    .cpp_file("src/app.cpp")
+    .qt_module("Widgets");
+    // SAFETY: only adds include paths for the KF6 I18n headers and QtQmlIntegration.
+    let builder = unsafe { builder.cc_builder(|cc| { cc.include("/usr/include/KF6/KI18n"); cc.include("/usr/include/qt6/QtQmlIntegration"); }) };
+    builder.build();
+    println!("cargo:rustc-link-lib=KF6I18nQml");
+    println!("cargo:rustc-link-lib=KF6I18n");
+    println!("cargo:rerun-if-changed=src/i18n.cpp");
+    println!("cargo:rerun-if-changed=src/i18n.h");
+    println!("cargo:rerun-if-changed=src/clipboard.cpp");
+    println!("cargo:rerun-if-changed=src/clipboard.h");
+}

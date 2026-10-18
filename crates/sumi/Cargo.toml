@@ -1,0 +1,22 @@
+[package]
+name = "sumi"
+description = "Command-line control for ASUS monitors over DDC/CI"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+sumi-proto.workspace = true
+sumi-ddc.workspace = true
+sumi-core.workspace = true
+sumi-ai = { path = "../sumi-ai" }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+clap.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+# The in-memory fake monitor, so the write self-test runs without hardware.
+sumi-core = { workspace = true, features = ["test-support"] }

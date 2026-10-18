@@ -1,0 +1,12 @@
+[package]
+name = "sumi-proto"
+description = "DDC/CI framing, MCCS capability parsing, EDID and the ASUS VCP catalogue"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+serde.workspace = true

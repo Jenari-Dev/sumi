@@ -1,0 +1,28 @@
+[package]
+name = "sumid"
+description = "Sumi monitor daemon: owns the DDC/CI buses, watches for monitor changes, serves D-Bus"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+sumi-proto.workspace = true
+sumi-ddc.workspace = true
+sumi-core.workspace = true
+sumi-ai = { path = "../sumi-ai" }
+anyhow.workspace = true
+libc.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+clap.workspace = true
+zbus = { version = "5.19", default-features = false, features = ["tokio", "blocking-api"] }
+tokio = { version = "1.53", features = ["rt-multi-thread", "macros", "sync", "time", "signal"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+dirs = "7"
+
+[dev-dependencies]
+# The in-memory fake monitor, so the daemon logic runs without hardware.
+sumi-core = { workspace = true, features = ["test-support"] }

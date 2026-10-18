@@ -1,0 +1,2000 @@
+# Sumi translation.
+# This file is distributed under the same license as Sumi (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: sumi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:100
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+msgid "RTS/RPG"
+msgstr "RTS/RPG"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:101
+#: crates/sumi-gui/qml/AiVisualPanel.qml:41
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "FPS"
+msgstr "FPS"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:102
+#: crates/sumi-gui/qml/AiVisualPanel.qml:50
+msgid "Cinema"
+msgstr "Điện ảnh"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:103
+#: crates/sumi-gui/qml/AiVisualPanel.qml:42
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+#: crates/sumi-gui/qml/AiVisualPanel.qml:56
+msgid "Scenery"
+msgstr "Phong cảnh"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:104
+#: crates/sumi-gui/qml/AiVisualPanel.qml:43
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "Racing"
+msgstr "Đua xe"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:105
+#: crates/sumi-gui/qml/AiVisualPanel.qml:51
+msgid "sRGB"
+msgstr "sRGB"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:106
+#: crates/sumi-gui/qml/AiVisualPanel.qml:44
+#: crates/sumi-gui/qml/AiVisualPanel.qml:52
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "MOBA"
+msgstr "MOBA"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:107
+#: crates/sumi-gui/qml/AiVisualPanel.qml:52
+msgid "User"
+msgstr "Người dùng"
+
+#: crates/sumi-gui/qml/AiBubbleModel.qml:113
+msgid "Switched to %1 mode"
+msgstr "Đã chuyển sang chế độ %1"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:40
+msgid "Game (RTS/RPG)"
+msgstr "Trò chơi (RTS/RPG)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:40
+msgid "Role-playing and strategy games"
+msgstr "Trò chơi nhập vai và chiến thuật"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:41
+msgid "Shooters"
+msgstr "Trò chơi bắn súng"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:42
+msgid "Landscapes and photos"
+msgstr "Phong cảnh và ảnh chụp"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:43
+msgid "Driving games"
+msgstr "Trò chơi lái xe"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:44
+msgid "Battle arenas"
+msgstr "Đấu trường chiến đấu"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:45
+msgid "Office (sRGB)"
+msgstr "Văn phòng (sRGB)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:45
+msgid "Documents, web and apps"
+msgstr "Tài liệu, web và ứng dụng"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:55
+msgid "Office"
+msgstr "Văn phòng"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:56
+msgid "Game (RPG)"
+msgstr "Trò chơi (RPG)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:89
+#: crates/sumi-gui/qml/AiVisualPanel.qml:182
+#: crates/sumi-gui/qml/AppTweakerPage.qml:233
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+msgid "AI Visual"
+msgstr "AI Visual"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:90
+msgid ""
+"AI Visual looks at what's on this monitor about once a second to pick a "
+"GameVisual mode. The picture stays in memory on this PC; nothing is saved or "
+"sent anywhere."
+msgstr ""
+"AI Visual xem nội dung hiển thị trên màn hình này khoảng một lần mỗi giây để "
+"chọn chế độ GameVisual. Hình ảnh chỉ nằm trong bộ nhớ của máy tính này; "
+"không có gì được lưu hay gửi đi đâu cả."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:91
+msgid "Turn on"
+msgstr "Bật"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:129
+msgid "Download the AI model"
+msgstr "Tải xuống mô hình AI"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:130
+msgid ""
+"Download the AI Visual model? %1, %2 MB, from huggingface.co (OpenAI CLIP "
+"ViT-B/32, MIT licence). It is checked against its published SHA-256 and kept "
+"in ~/.local/share/sumi/models."
+msgstr ""
+"Tải xuống mô hình AI Visual? %1, %2 MB, từ huggingface.co (OpenAI CLIP ViT-B/"
+"32, giấy phép MIT). Mô hình được đối chiếu với SHA-256 đã công bố và lưu "
+"trong ~/.local/share/sumi/models."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:132
+#: crates/sumi-gui/qml/UserCenterPage.qml:291
+msgid "Download"
+msgstr "Tải xuống"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+msgid "Remove the AI model"
+msgstr "Gỡ mô hình AI"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+msgid ""
+"Remove the AI Visual model from this PC? You can download it again later."
+msgstr "Gỡ mô hình AI Visual khỏi máy tính này? Bạn có thể tải xuống lại sau."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:136
+#: crates/sumi-gui/qml/AiVisualPanel.qml:251
+msgid "Remove"
+msgstr "Gỡ"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:170
+msgid "AI Visual mode settings"
+msgstr "Cài đặt chế độ AI Visual"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:208
+msgid "AI model"
+msgstr "Mô hình AI"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:220
+msgid "Download (%1 MB)"
+msgstr "Tải xuống (%1 MB)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:230
+msgid "Downloading the model"
+msgstr "Đang tải xuống mô hình"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:232
+#: crates/sumi-gui/qml/UserCenterPage.qml:282
+msgid "%1 of %2 MB"
+msgstr "%1 / %2 MB"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:239
+msgid "AI model installed (%1 MB)"
+msgstr "Đã cài đặt mô hình AI (%1 MB)"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:258
+msgid "This sumid has no AI Visual; update it."
+msgstr "sumid này không có AI Visual; hãy cập nhật."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:269
+msgid "Show Notifications"
+msgstr "Hiện thông báo"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:321
+msgid "Others:"
+msgstr "Khác:"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:331
+msgid "Remain unchanged"
+msgstr "Giữ nguyên"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:340
+msgid "Assign my preference:"
+msgstr "Gán theo ý tôi:"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:362
+msgid "Now seeing"
+msgstr "Đang nhận diện"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:392
+msgid "Game"
+msgstr "Trò chơi"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:399
+msgid "Confidence"
+msgstr "Độ tin cậy"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:407
+msgid "unchanged"
+msgstr "không đổi"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:407
+msgid "Mode: %1"
+msgstr "Chế độ: %1"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:418
+msgid "Paused: %1"
+msgstr "Đã tạm dừng: %1"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:438
+msgid "Preview: AI Visual is off, so nothing is switched."
+msgstr "Xem trước: AI Visual đang tắt nên không có chế độ nào được chuyển."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:438
+msgid "Download the model to try AI Visual."
+msgstr "Hãy tải xuống mô hình để thử AI Visual."
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:453
+#: crates/sumi-gui/qml/GameVisualPage.qml:389 crates/sumi-gui/qml/Store.qml:359
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: crates/sumi-gui/qml/AiVisualPanel.qml:458
+msgid "Close"
+msgstr "Đóng"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:7 crates/sumi-gui/qml/Main.qml:378
+#: crates/sumi-gui/qml/Sidebar.qml:137
+msgid "Application Settings"
+msgstr "Cài đặt ứng dụng"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:38
+msgid "Text files (*.txt)"
+msgstr "Tệp văn bản (*.txt)"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:38
+#: crates/sumi-gui/qml/FileChooser.qml:12
+#: crates/sumi-gui/qml/FileChooser.qml:19
+msgid "All files (*)"
+msgstr "Tất cả tệp (*)"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:87
+msgid "System language"
+msgstr "Ngôn ngữ hệ thống"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:88
+msgid "Same as the monitor menu"
+msgstr "Giống menu màn hình"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Not running"
+msgstr "Không chạy"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Connected, read-only"
+msgstr "Đã kết nối, chỉ đọc"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:108
+msgid "Connected"
+msgstr "Đã kết nối"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:127
+msgid "Version"
+msgstr "Phiên bản"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:128
+msgid "The version of this app."
+msgstr "Phiên bản của ứng dụng này."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:140
+msgid "Daemon"
+msgstr "Dịch vụ nền"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:141
+msgid "sumid talks to the monitor; this app only talks to sumid."
+msgstr "sumid giao tiếp với màn hình; ứng dụng này chỉ giao tiếp với sumid."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:163
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:164
+msgid "The language of Sumi's windows."
+msgstr "Ngôn ngữ của các cửa sổ Sumi."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:179
+msgid "Restart Sumi to change the language"
+msgstr "Khởi động lại Sumi để đổi ngôn ngữ"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:183
+msgid "Restart"
+msgstr "Khởi động lại"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:190
+msgid "Start on login"
+msgstr "Khởi động khi đăng nhập"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:191
+msgid "Opens Sumi minimised when you log in."
+msgstr "Mở Sumi ở trạng thái thu nhỏ khi bạn đăng nhập."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:207
+msgid "Diagnostics"
+msgstr "Chẩn đoán"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:208
+msgid ""
+"Saves a text file with the app, daemon and monitor state for a bug report."
+msgstr ""
+"Lưu một tệp văn bản chứa trạng thái của ứng dụng, dịch vụ nền và màn hình để "
+"dùng cho báo cáo lỗi."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:213
+msgid "Collecting…"
+msgstr "Đang thu thập…"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:213
+msgid "Export diagnostics"
+msgstr "Xuất thông tin chẩn đoán"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:221
+msgid "User manual"
+msgstr "Hướng dẫn sử dụng"
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:222
+msgid "How to use Sumi, step by step."
+msgstr "Cách dùng Sumi, từng bước một."
+
+#: crates/sumi-gui/qml/AppSettingsPage.qml:227
+msgid "Open"
+msgstr "Mở"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:11 crates/sumi-gui/qml/Sidebar.qml:31
+msgid "App Tweaker"
+msgstr "Tinh chỉnh ứng dụng"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:37
+msgid "Recently used"
+msgstr "Dùng gần đây"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:45
+msgid "Installed apps"
+msgstr "Ứng dụng đã cài đặt"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:154
+msgid "Switch GameVisual mode automatically when an application gets focus."
+msgstr "Tự động chuyển chế độ GameVisual khi một ứng dụng nhận tiêu điểm."
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:165
+#: crates/sumi-gui/qml/UserCenterPage.qml:112
+msgid "On"
+msgstr "Bật"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:165
+#: crates/sumi-gui/qml/GameVisualPage.qml:452
+#: crates/sumi-gui/qml/UserCenterPage.qml:112
+msgid "Off"
+msgstr "Tắt"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:184
+msgid "App"
+msgstr "Ứng dụng"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:192
+msgid "Mode"
+msgstr "Chế độ"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:224
+msgid "Default Setting"
+msgstr "Cài đặt mặc định"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:243
+msgid "Unlisted apps follow AI Visual"
+msgstr "Ứng dụng không có trong danh sách sẽ theo AI Visual"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:254
+msgid "No change"
+msgstr "Không thay đổi"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:276
+msgid "Choose an app"
+msgstr "Chọn ứng dụng"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:317
+msgid "Add"
+msgstr "Thêm"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:326
+msgid "Settings conflict: %1"
+msgstr "Xung đột cài đặt: %1"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:342
+msgid "Restore the previous mode when the app loses focus"
+msgstr "Khôi phục chế độ trước đó khi ứng dụng mất tiêu điểm"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:343
+#: crates/sumi-gui/qml/AppTweakerPage.qml:360 crates/sumi-gui/qml/Main.qml:10
+#: crates/sumi-gui/qml/Main.qml:185 crates/sumi-gui/qml/Main.qml:199
+#: crates/sumi-gui/qml/Sidebar.qml:61
+msgid "Sumi"
+msgstr "Sumi"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:344
+msgid "Without this the mode of the last app stays on."
+msgstr "Nếu không bật, chế độ của ứng dụng cuối cùng sẽ được giữ nguyên."
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:359
+msgid "Turn HDR off when an app's mode needs SDR"
+msgstr "Tắt HDR khi chế độ của ứng dụng cần SDR"
+
+#: crates/sumi-gui/qml/AppTweakerPage.qml:361
+msgid "GameVisual modes other than HDR only apply while HDR is off."
+msgstr "Các chế độ GameVisual khác ngoài HDR chỉ áp dụng khi HDR đang tắt."
+
+#: crates/sumi-gui/qml/ComboRow.qml:22
+msgid "Not available"
+msgstr "Không khả dụng"
+
+#: crates/sumi-gui/qml/ConfirmDialog.qml:12 crates/sumi-gui/qml/Main.qml:469
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+#: crates/sumi-gui/qml/Store.qml:435
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#: crates/sumi-gui/qml/ConfirmDialog.qml:13 crates/sumi-gui/qml/Main.qml:470
+msgid "Cancel"
+msgstr "Hủy"
+
+#: crates/sumi-gui/qml/FileChooser.qml:12
+#: crates/sumi-gui/qml/FileChooser.qml:19
+msgid "Settings files (*.json)"
+msgstr "Tệp cài đặt (*.json)"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:11 crates/sumi-gui/qml/Sidebar.qml:24
+msgid "GamePlus"
+msgstr "GamePlus"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:15
+msgid "Crosshair"
+msgstr "Tâm ngắm"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:16
+msgid "Timer"
+msgstr "Hẹn giờ"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:17
+msgid "FPS Counter"
+msgstr "Bộ đếm FPS"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:18
+msgid "Display Alignment"
+msgstr "Căn chỉnh màn hình"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:54
+#: crates/sumi-gui/qml/GameVisualPage.qml:251
+msgid "Select Mode"
+msgstr "Chọn chế độ"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:92
+msgid "Select Mode Style"
+msgstr "Chọn kiểu chế độ"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:211
+msgid "Set GamePlus Position"
+msgstr "Đặt vị trí GamePlus"
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:222
+msgid "Not available for the alignment grid."
+msgstr "Không khả dụng cho lưới căn chỉnh."
+
+#: crates/sumi-gui/qml/GamePlusPage.qml:222
+msgid "Moves the overlay that is on."
+msgstr "Di chuyển lớp phủ đang bật."
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:9
+#: crates/sumi-gui/qml/MultiScreenPage.qml:434
+#: crates/sumi-gui/qml/Sidebar.qml:23
+msgid "GameVisual"
+msgstr "GameVisual"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:116
+msgid "Dolby Vision"
+msgstr "Dolby Vision"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:203
+msgid "Settings imported"
+msgstr "Đã nhập cài đặt"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:203
+msgid "Nothing needed to change."
+msgstr "Không cần thay đổi gì."
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:214
+msgid "mode %1"
+msgstr "chế độ %1"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "Switch mode"
+msgstr "Chuyển chế độ"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "This file is for %1. Switch to it and apply?"
+msgstr "Tệp này dành cho %1. Chuyển sang chế độ đó và áp dụng?"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:215
+msgid "Switch and apply"
+msgstr "Chuyển và áp dụng"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:223
+msgid "Import failed"
+msgstr "Nhập thất bại"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:241
+msgid "Mode Sync"
+msgstr "Đồng bộ chế độ"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:263
+msgid "Advertised: %1"
+msgstr "Màn hình báo: %1"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+msgid "HDR Dolby Vision"
+msgstr "HDR Dolby Vision"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:301
+#: crates/sumi-gui/qml/UserCenterPage.qml:102
+#: crates/sumi-gui/qml/UserCenterPage.qml:134
+msgid "HDR"
+msgstr "HDR"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:344
+msgid "%1 mode settings"
+msgstr "Cài đặt chế độ %1"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:344
+msgid "Mode settings"
+msgstr "Cài đặt chế độ"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:399
+msgid "Compare"
+msgstr "So sánh"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:419
+msgid "Import"
+msgstr "Nhập"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:425
+msgid "Export"
+msgstr "Xuất"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:437
+msgid "Image"
+msgstr "Hình ảnh"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:442
+#: crates/sumi-gui/qml/UserCenterPage.qml:133
+msgid "Brightness"
+msgstr "Độ sáng"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:443
+msgid "Contrast"
+msgstr "Độ tương phản"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:444
+msgid "Variable OD"
+msgstr "OD biến thiên"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:451
+msgid "Blue Light Filter"
+msgstr "Bộ lọc ánh sáng xanh"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:454
+msgid "Shadow Boost"
+msgstr "Tăng cường vùng tối"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:455
+msgid "ASCR"
+msgstr "ASCR"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:456
+msgid "Sharpness"
+msgstr "Độ sắc nét"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:467
+msgid "Color"
+msgstr "Màu sắc"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:472
+msgid "Saturation"
+msgstr "Độ bão hòa"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:473
+msgid "Hue"
+msgstr "Sắc độ"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:474
+msgid "Color Temp."
+msgstr "Nhiệt độ màu"
+
+#: crates/sumi-gui/qml/GameVisualPage.qml:475
+msgid "Gamma"
+msgstr "Gamma"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:12 crates/sumi-gui/qml/Sidebar.qml:30
+msgid "HotKey"
+msgstr "Phím tắt"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:43
+msgid "Not set"
+msgstr "Chưa đặt"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:74
+msgid "Enable hot keys"
+msgstr "Bật phím tắt"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:98
+msgid "Step"
+msgstr "Bước"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:99
+msgid "How far brightness, contrast and saturation move for each key press."
+msgstr ""
+"Mức thay đổi của độ sáng, độ tương phản và độ bão hòa cho mỗi lần nhấn phím."
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:133
+msgid "EZ OSD"
+msgstr "EZ OSD"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:143
+msgid ""
+"Drive the monitor's own menu from the keyboard: bind “EZ OSD: open the "
+"monitor menu” and the arrow, enter and back actions below, then use them "
+"like the monitor's joystick."
+msgstr ""
+"Điều khiển menu riêng của màn hình bằng bàn phím: gán “EZ OSD: mở menu màn "
+"hình” cùng các thao tác mũi tên, xác nhận và quay lại bên dưới, rồi dùng "
+"chúng như cần điều khiển của màn hình."
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:153
+msgid "Got it"
+msgstr "Đã hiểu"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:165
+msgid "Gamepad EZ OSD"
+msgstr "EZ OSD bằng tay cầm"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:166
+msgid ""
+"Hold LB + RB + LT + RT to start, then D-pad to move, A to select, B to go "
+"back."
+msgstr ""
+"Giữ LB + RB + LT + RT để bắt đầu, sau đó dùng D-pad để di chuyển, A để chọn, "
+"B để quay lại."
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:193
+msgid "Action"
+msgstr "Thao tác"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:203
+msgid "Keys"
+msgstr "Phím"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:263
+msgid "Test"
+msgstr "Thử"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:278
+msgid "KDE global shortcuts aren't available."
+msgstr "Phím tắt toàn cục của KDE không khả dụng."
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:302
+msgid "Set keys in System Settings"
+msgstr "Đặt phím trong Cài đặt hệ thống"
+
+#: crates/sumi-gui/qml/HotKeyPage.qml:315
+msgid "Keys are set under Shortcuts › Sumi; nothing is bound by default."
+msgstr ""
+"Phím được đặt trong Phím tắt › Sumi; mặc định không có phím nào được gán."
+
+#: crates/sumi-gui/qml/Main.qml:109
+msgid "Monitor not responding"
+msgstr "Màn hình không phản hồi"
+
+#: crates/sumi-gui/qml/Main.qml:110
+msgid ""
+"%1 was found but doesn't answer DDC/CI. Turn on DDC/CI in the monitor's menu "
+"(System Setup) and check that /dev/i2c-* is accessible."
+msgstr ""
+"Đã tìm thấy %1 nhưng nó không phản hồi DDC/CI. Hãy bật DDC/CI trong menu của "
+"màn hình (Cài đặt hệ thống) và kiểm tra xem có truy cập được /dev/i2c-* hay "
+"không."
+
+#: crates/sumi-gui/qml/Main.qml:185
+msgid "Sumi keeps running in the tray"
+msgstr "Sumi tiếp tục chạy trong khay hệ thống"
+
+#: crates/sumi-gui/qml/Main.qml:207
+msgid "Show Sumi"
+msgstr "Hiện Sumi"
+
+#: crates/sumi-gui/qml/Main.qml:211
+msgid "Quit"
+msgstr "Thoát"
+
+#: crates/sumi-gui/qml/Main.qml:355
+msgid "No supported monitor found"
+msgstr "Không tìm thấy màn hình được hỗ trợ"
+
+#: crates/sumi-gui/qml/Main.qml:363
+msgid ""
+"Connect the monitor with a DDC/CI-capable cable and enable DDC/CI in its "
+"menu."
+msgstr ""
+"Kết nối màn hình bằng cáp hỗ trợ DDC/CI và bật DDC/CI trong menu của màn "
+"hình."
+
+#: crates/sumi-gui/qml/Main.qml:390
+msgid "Read-only daemon: changes are not sent"
+msgstr "Dịch vụ nền chỉ đọc: các thay đổi không được gửi"
+
+#: crates/sumi-gui/qml/Main.qml:408
+msgid "Sumi can't reach its daemon"
+msgstr "Sumi không thể kết nối với dịch vụ nền"
+
+#: crates/sumi-gui/qml/Main.qml:416
+msgid "sumid isn't running. Start it with:"
+msgstr "sumid không chạy. Khởi động bằng lệnh:"
+
+#: crates/sumi-gui/qml/Main.qml:430
+msgid "systemctl --user start sumid"
+msgstr "systemctl --user start sumid"
+
+#: crates/sumi-gui/qml/Main.qml:440
+msgid "Copy command"
+msgstr "Sao chép lệnh"
+
+#: crates/sumi-gui/qml/Main.qml:446 crates/sumi-gui/qml/PageBase.qml:67
+msgid "Try again"
+msgstr "Thử lại"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:9 crates/sumi-gui/qml/Sidebar.qml:29
+msgid "MultiScreen"
+msgstr "Đa màn hình"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:49
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:50
+#: crates/sumi-gui/qml/MultiScreenPage.qml:270
+msgid "None"
+msgstr "Không"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:52
+msgid "Layout %1"
+msgstr "Bố cục %1"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:127
+msgid "Select Function"
+msgstr "Chọn chức năng"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:139
+#: crates/sumi-gui/qml/MultiScreenPage.qml:168
+msgid "MultiFrame"
+msgstr "MultiFrame"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:146
+#: crates/sumi-gui/qml/MultiScreenPage.qml:347
+msgid "PIP/PBP"
+msgstr "PIP/PBP"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:154
+#: crates/sumi-gui/qml/MultiScreenPage.qml:470
+msgid "KVM"
+msgstr "KVM"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:174
+msgid "Screen"
+msgstr "Màn hình"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:301
+msgid "Hold Shift while dragging a window to drop it into a zone (KDE tiling)."
+msgstr "Giữ Shift khi kéo cửa sổ để thả vào một vùng (xếp ô của KDE)."
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:322
+msgid "MultiFrame needs KDE Plasma 6."
+msgstr "MultiFrame cần KDE Plasma 6."
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:390
+msgid "Window A"
+msgstr "Cửa sổ A"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:391
+msgid "Window B"
+msgstr "Cửa sổ B"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:414
+msgid "Source"
+msgstr "Nguồn"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:456
+#: crates/sumi-gui/qml/OledCarePage.qml:113 crates/sumi-gui/qml/Store.qml:370
+#: crates/sumi-gui/qml/Store.qml:391
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: crates/sumi-gui/qml/MultiScreenPage.qml:475
+msgid "Choose which computer the monitor's USB hub belongs to."
+msgstr "Chọn máy tính mà hub USB của màn hình thuộc về."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:8 crates/sumi-gui/qml/Sidebar.qml:27
+msgid "OLED Care"
+msgstr "Chăm sóc OLED"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:45
+msgid "Screen Dimming Control"
+msgstr "Điều khiển làm mờ màn hình"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:46
+msgid ""
+"Slowly dims a picture that stays still, so no pixel burns at full brightness."
+msgstr ""
+"Làm mờ dần hình ảnh đứng yên để không điểm ảnh nào bị lưu ảnh ở độ sáng tối "
+"đa."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:52
+msgid "Logo Detection"
+msgstr "Phát hiện logo"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:53
+msgid ""
+"Spots bright logos and HUD elements that don't move and lowers their "
+"brightness."
+msgstr ""
+"Nhận ra logo sáng và các thành phần HUD không di chuyển rồi giảm độ sáng của "
+"chúng."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:59
+msgid "Taskbar Detection"
+msgstr "Phát hiện thanh tác vụ"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:60
+msgid "Recognises a fixed taskbar at the screen edge and dims it."
+msgstr "Nhận ra thanh tác vụ cố định ở cạnh màn hình và làm mờ nó."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:66
+msgid "Boundary Detection"
+msgstr "Phát hiện đường viền"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:67
+msgid "Finds the borders of static windows and softens the light along them."
+msgstr "Tìm đường viền của các cửa sổ tĩnh và làm dịu ánh sáng dọc theo đó."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:73
+msgid "Outer Dimming Control"
+msgstr "Điều khiển làm mờ vùng ngoài"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:74
+msgid "Lowers brightness toward the outer area of the panel."
+msgstr "Giảm độ sáng dần về phía vùng ngoài của tấm nền."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:80
+msgid "Global Dimming Control"
+msgstr "Điều khiển làm mờ toàn cục"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:81
+msgid ""
+"Lets the monitor adjust brightness across the whole panel for the content."
+msgstr ""
+"Cho phép màn hình điều chỉnh độ sáng trên toàn bộ tấm nền theo nội dung."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:87
+msgid "Uniform Brightness"
+msgstr "Độ sáng đồng đều"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:88
+msgid "Keeps the brightness level steady from scene to scene."
+msgstr "Giữ mức độ sáng ổn định giữa các cảnh."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:93
+msgid "Target Mode"
+msgstr "Chế độ mục tiêu"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:94
+msgid "Dims every window except the one you are using."
+msgstr "Làm mờ mọi cửa sổ trừ cửa sổ bạn đang dùng."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:107
+msgid "Pixel Cleaning"
+msgstr "Làm sạch điểm ảnh"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:108
+msgid ""
+"A panel refresh cycle of about six minutes; the screen goes dark while it "
+"runs."
+msgstr ""
+"Chu kỳ làm mới tấm nền kéo dài khoảng sáu phút; màn hình sẽ tối đi trong lúc "
+"chạy."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:122
+msgid "Pixel Cleaning Reminder"
+msgstr "Nhắc làm sạch điểm ảnh"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:123
+msgid "How often the monitor reminds you to run pixel cleaning."
+msgstr "Tần suất màn hình nhắc bạn chạy làm sạch điểm ảnh."
+
+#: crates/sumi-gui/qml/OledCarePage.qml:129
+msgid "Screen Move"
+msgstr "Dịch chuyển màn hình"
+
+#: crates/sumi-gui/qml/OledCarePage.qml:130
+msgid ""
+"Shifts the image by a few pixels now and then so no pixel stays lit in one "
+"place."
+msgstr ""
+"Thỉnh thoảng dịch hình ảnh vài điểm ảnh để không điểm ảnh nào sáng cố định "
+"tại một chỗ."
+
+#: crates/sumi-gui/qml/PageBase.qml:53
+msgid "The monitor didn't answer."
+msgstr "Màn hình không phản hồi."
+
+#: crates/sumi-gui/qml/PageBase.qml:60
+msgid "Check that DDC/CI is enabled in the monitor's OSD, then try again."
+msgstr "Hãy kiểm tra DDC/CI đã được bật trong OSD của màn hình, rồi thử lại."
+
+#: crates/sumi-gui/qml/RogToggle.qml:31 crates/sumi-gui/qml/RogToggle.qml:45
+msgctxt "@label state of a switch"
+msgid "ON"
+msgstr "BẬT"
+
+#: crates/sumi-gui/qml/RogToggle.qml:38 crates/sumi-gui/qml/RogToggle.qml:45
+msgctxt "@label state of a switch"
+msgid "OFF"
+msgstr "TẮT"
+
+#: crates/sumi-gui/qml/Sidebar.qml:32 crates/sumi-gui/qml/SystemPage.qml:11
+msgid "System Settings"
+msgstr "Cài đặt hệ thống"
+
+#: crates/sumi-gui/qml/Sidebar.qml:74
+msgid "Monitor settings"
+msgstr "Cài đặt màn hình"
+
+#: crates/sumi-gui/qml/Sidebar.qml:95
+msgid "No monitor"
+msgstr "Không có màn hình"
+
+#: crates/sumi-gui/qml/Sidebar.qml:130 crates/sumi-gui/qml/UserCenterPage.qml:7
+msgid "User Center"
+msgstr "Trung tâm người dùng"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid not running"
+msgstr "sumid không chạy"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid · read-only"
+msgstr "sumid · chỉ đọc"
+
+#: crates/sumi-gui/qml/Sidebar.qml:156
+msgid "sumid connected"
+msgstr "sumid đã kết nối"
+
+#: crates/sumi-gui/qml/Store.qml:355
+msgid "Turn HDR off"
+msgstr "Tắt HDR"
+
+#: crates/sumi-gui/qml/Store.qml:355 crates/sumi-gui/qml/Store.qml:368
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:374
+#: crates/sumi-gui/qml/Store.qml:387 crates/sumi-gui/qml/Store.qml:393
+msgid "Switch"
+msgstr "Chuyển"
+
+#: crates/sumi-gui/qml/Store.qml:355
+msgid "Switching to %1 turns HDR off for this monitor."
+msgstr "Chuyển sang %1 sẽ tắt HDR cho màn hình này."
+
+#: crates/sumi-gui/qml/Store.qml:359
+msgid "Reset mode"
+msgstr "Đặt lại chế độ"
+
+#: crates/sumi-gui/qml/Store.qml:359
+msgid "Reset the current GameVisual mode to its defaults?"
+msgstr "Đặt lại chế độ GameVisual hiện tại về mặc định?"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid "Pixel cleaning"
+msgstr "Làm sạch điểm ảnh"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: crates/sumi-gui/qml/Store.qml:361
+msgid ""
+"Pixel cleaning takes about 6 minutes. The screen turns off while it runs. "
+"Don't unplug the monitor."
+msgstr ""
+"Làm sạch điểm ảnh mất khoảng 6 phút. Màn hình sẽ tắt trong lúc chạy. Đừng "
+"rút cáp màn hình."
+
+#: crates/sumi-gui/qml/Store.qml:368
+msgid "Change HDR format"
+msgstr "Đổi định dạng HDR"
+
+#: crates/sumi-gui/qml/Store.qml:368
+msgid ""
+"Switching between HDR10 and Dolby Vision makes the monitor reconnect; the "
+"screen goes dark for a moment."
+msgstr ""
+"Chuyển giữa HDR10 và Dolby Vision khiến màn hình kết nối lại; màn hình sẽ "
+"tối đi trong giây lát."
+
+#: crates/sumi-gui/qml/Store.qml:370 crates/sumi-gui/qml/Store.qml:391
+msgid "Change layout"
+msgstr "Đổi bố cục"
+
+#: crates/sumi-gui/qml/Store.qml:370 crates/sumi-gui/qml/Store.qml:391
+msgid "The monitor will briefly disconnect while the layout changes."
+msgstr "Màn hình sẽ ngắt kết nối trong giây lát khi bố cục thay đổi."
+
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:387
+msgid "Switch USB host"
+msgstr "Chuyển máy chủ USB"
+
+#: crates/sumi-gui/qml/Store.qml:372 crates/sumi-gui/qml/Store.qml:387
+msgid ""
+"Peripherals on the monitor's USB hub (keyboard, mouse…) will move to the "
+"other computer."
+msgstr ""
+"Các thiết bị ngoại vi trên hub USB của màn hình (bàn phím, chuột…) sẽ chuyển "
+"sang máy tính còn lại."
+
+#: crates/sumi-gui/qml/Store.qml:374
+msgid "Switch input"
+msgstr "Chuyển đầu vào"
+
+#: crates/sumi-gui/qml/Store.qml:374
+msgid "This PC will lose the picture until you switch back on the monitor."
+msgstr "Máy tính này sẽ mất hình cho đến khi bạn chuyển lại trên màn hình."
+
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+msgid "Power saving"
+msgstr "Tiết kiệm điện"
+
+#: crates/sumi-gui/qml/Store.qml:376 crates/sumi-gui/qml/Store.qml:389
+msgid ""
+"Power saving mode locks most picture settings; only brightness and contrast "
+"stay adjustable."
+msgstr ""
+"Chế độ tiết kiệm điện khóa hầu hết cài đặt hình ảnh; chỉ độ sáng và độ tương "
+"phản vẫn điều chỉnh được."
+
+#: crates/sumi-gui/qml/Store.qml:393
+msgid "Change HDR"
+msgstr "Đổi HDR"
+
+#: crates/sumi-gui/qml/Store.qml:393
+msgid ""
+"Turning HDR on or off makes the monitor reconnect; the screen goes dark for "
+"a moment."
+msgstr ""
+"Bật hoặc tắt HDR khiến màn hình kết nối lại; màn hình sẽ tối đi trong giây "
+"lát."
+
+#: crates/sumi-gui/qml/Store.qml:440
+msgid "OK"
+msgstr "OK"
+
+#: crates/sumi-gui/qml/SystemPage.qml:34
+msgid "Lowers power use; most picture settings are locked."
+msgstr "Giảm mức tiêu thụ điện; hầu hết cài đặt hình ảnh bị khóa."
+
+#: crates/sumi-gui/qml/SystemPage.qml:34
+msgid "Full picture controls and performance."
+msgstr "Đầy đủ điều khiển hình ảnh và hiệu năng."
+
+#: crates/sumi-gui/qml/SystemPage.qml:56
+msgid "Display HDR"
+msgstr "HDR của màn hình"
+
+#: crates/sumi-gui/qml/SystemPage.qml:57
+msgid "Turns HDR on in KDE for this monitor."
+msgstr "Bật HDR trong KDE cho màn hình này."
+
+#: crates/sumi-gui/qml/SystemPage.qml:74
+msgid "Power Settings"
+msgstr "Cài đặt nguồn điện"
+
+#: crates/sumi-gui/qml/SystemPage.qml:123
+msgid "OSD Language"
+msgstr "Ngôn ngữ OSD"
+
+#: crates/sumi-gui/qml/SystemPage.qml:123
+msgid "Language of the monitor's on-screen menu."
+msgstr "Ngôn ngữ của menu trên màn hình."
+
+#: crates/sumi-gui/qml/SystemPage.qml:124
+msgid "OSD Shortcut 1"
+msgstr "Phím tắt OSD 1"
+
+#: crates/sumi-gui/qml/SystemPage.qml:124
+msgid "What the first shortcut key on the monitor opens."
+msgstr "Chức năng mà phím tắt thứ nhất trên màn hình mở ra."
+
+#: crates/sumi-gui/qml/SystemPage.qml:125
+msgid "OSD Shortcut 2"
+msgstr "Phím tắt OSD 2"
+
+#: crates/sumi-gui/qml/SystemPage.qml:125
+msgid "What the second shortcut key on the monitor opens."
+msgstr "Chức năng mà phím tắt thứ hai trên màn hình mở ra."
+
+#: crates/sumi-gui/qml/SystemPage.qml:126
+msgid "Input Select"
+msgstr "Chọn đầu vào"
+
+#: crates/sumi-gui/qml/SystemPage.qml:126
+msgid "The video input the monitor shows."
+msgstr "Đầu vào video mà màn hình hiển thị."
+
+#: crates/sumi-gui/qml/SystemPage.qml:127
+msgid "Volume"
+msgstr "Âm lượng"
+
+#: crates/sumi-gui/qml/SystemPage.qml:127
+msgid "Speaker and headphone output level."
+msgstr "Mức đầu ra của loa và tai nghe."
+
+#: crates/sumi-gui/qml/SystemPage.qml:128
+msgid "Mute"
+msgstr "Tắt tiếng"
+
+#: crates/sumi-gui/qml/SystemPage.qml:128
+msgid "Silences the monitor's audio output."
+msgstr "Tắt tiếng đầu ra âm thanh của màn hình."
+
+#: crates/sumi-gui/qml/SystemPage.qml:129
+msgid "Auto Input Detection"
+msgstr "Tự động dò đầu vào"
+
+#: crates/sumi-gui/qml/SystemPage.qml:129
+msgid "Switches to a source when it starts sending a signal."
+msgstr "Chuyển sang nguồn khi nguồn đó bắt đầu gửi tín hiệu."
+
+#: crates/sumi-gui/qml/SystemPage.qml:130
+msgid "Adaptive-Sync (VRR)"
+msgstr "Adaptive-Sync (VRR)"
+
+#: crates/sumi-gui/qml/SystemPage.qml:130
+msgid "Matches the refresh rate to the frame rate of the game."
+msgstr "Khớp tần số quét với tốc độ khung hình của trò chơi."
+
+#: crates/sumi-gui/qml/SystemPage.qml:139
+msgid "Desktop"
+msgstr "Màn hình nền"
+
+#: crates/sumi-gui/qml/SystemPage.qml:155
+msgid "Auto-hide panel"
+msgstr "Tự động ẩn bảng điều khiển"
+
+#: crates/sumi-gui/qml/SystemPage.qml:156
+msgid ""
+"Hides the Plasma panel when you aren't using it, so it doesn't burn into an "
+"OLED panel."
+msgstr ""
+"Ẩn bảng điều khiển Plasma khi bạn không dùng để tránh bị lưu ảnh lên tấm nền "
+"OLED."
+
+#: crates/sumi-gui/qml/SystemPage.qml:168
+msgid "Dark theme"
+msgstr "Chủ đề tối"
+
+#: crates/sumi-gui/qml/SystemPage.qml:169
+msgid ""
+"Uses a dark colour scheme: fewer bright pixels, less wear on an OLED panel."
+msgstr ""
+"Dùng bảng màu tối: ít điểm ảnh sáng hơn, tấm nền OLED ít bị hao mòn hơn."
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:91
+msgid "%1 Hz"
+msgstr "%1 Hz"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:95
+msgid "%1 h"
+msgstr "%1 giờ"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:126
+msgid "Model"
+msgstr "Kiểu máy"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:127
+msgid "Firmware"
+msgstr "Firmware"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:128
+msgid "VCP scheme"
+msgstr "Sơ đồ VCP"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:129
+msgid "Refresh rate"
+msgstr "Tần số quét"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:130
+msgid "Display usage time"
+msgstr "Thời gian sử dụng màn hình"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:131
+msgid "Input"
+msgstr "Đầu vào"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:132
+msgid "GameVisual mode"
+msgstr "Chế độ GameVisual"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:135
+msgid "HDR format"
+msgstr "Định dạng HDR"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:136
+msgid "I2C bus"
+msgstr "Bus I2C"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:137
+msgid "Connector"
+msgstr "Đầu nối"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:141
+msgid "Sumi device info"
+msgstr "Thông tin thiết bị Sumi"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:153
+msgid "Device"
+msgstr "Thiết bị"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:201
+msgid "Check for updates"
+msgstr "Kiểm tra cập nhật"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:212
+msgid "Copied to the clipboard"
+msgstr "Đã sao chép vào bảng nhớ tạm"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:222
+msgid "Copy"
+msgstr "Sao chép"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:266
+msgid "Checking…"
+msgstr "Đang kiểm tra…"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:267
+msgid "Up to date"
+msgstr "Đã cập nhật"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:268
+msgid "%1 is available"
+msgstr "%1 đã có"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:269
+msgid "Saved to %1"
+msgstr "Đã lưu vào %1"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:271
+msgid ""
+"Asks ASUS's download server whether newer firmware exists; only the model "
+"name is sent."
+msgstr ""
+"Hỏi máy chủ tải xuống của ASUS xem có firmware mới hơn không; chỉ gửi tên "
+"mẫu máy."
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:280
+msgid "Downloading %1"
+msgstr "Đang tải xuống %1"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:291
+msgid "Open folder"
+msgstr "Mở thư mục"
+
+#: crates/sumi-gui/qml/UserCenterPage.qml:312
+msgid ""
+"Run ASUS's update tool from this file on Windows; Sumi doesn't flash "
+"firmware."
+msgstr ""
+"Chạy công cụ cập nhật của ASUS từ tệp này trên Windows; Sumi không flash "
+"firmware."
+
+#: crates/sumi-gui/src/i18n.cpp:27
+msgid "sumid isn't running — start it with: systemctl --user start sumid"
+msgstr "sumid không chạy — khởi động bằng lệnh: systemctl --user start sumid"
+
+#: crates/sumi-gui/src/i18n.cpp:32
+msgid "D-Bus: %1"
+msgstr "D-Bus: %1"
+
+#: po/daemon-strings.cpp:12
+msgid "Night Vision"
+msgstr "Nhìn đêm"
+
+#: po/daemon-strings.cpp:13
+msgid "HDR mode"
+msgstr "Chế độ HDR"
+
+#: po/daemon-strings.cpp:14
+msgid "Cinema HDR"
+msgstr "HDR điện ảnh"
+
+#: po/daemon-strings.cpp:15
+msgid "Gaming HDR"
+msgstr "HDR chơi game"
+
+#: po/daemon-strings.cpp:16
+msgid "Console HDR"
+msgstr "HDR console"
+
+#: po/daemon-strings.cpp:17
+msgid "True Black 400"
+msgstr "True Black 400"
+
+#: po/daemon-strings.cpp:18
+msgid "True Black 500"
+msgstr "True Black 500"
+
+#: po/daemon-strings.cpp:19
+msgid "Dolby Vision Bright"
+msgstr "Dolby Vision sáng"
+
+#: po/daemon-strings.cpp:20
+msgid "Dolby Vision Dark"
+msgstr "Dolby Vision tối"
+
+#: po/daemon-strings.cpp:21
+msgid "Dolby Vision Gaming"
+msgstr "Dolby Vision chơi game"
+
+#: po/daemon-strings.cpp:22
+msgid "Dolby Vision Source only"
+msgstr "Dolby Vision chỉ nguồn"
+
+#: po/daemon-strings.cpp:29
+msgid "Level 1"
+msgstr "Mức 1"
+
+#: po/daemon-strings.cpp:30
+msgid "Level 2"
+msgstr "Mức 2"
+
+#: po/daemon-strings.cpp:31
+msgid "Level 3"
+msgstr "Mức 3"
+
+#: po/daemon-strings.cpp:32
+msgid "Dynamic"
+msgstr "Động"
+
+#: po/daemon-strings.cpp:37
+msgid "4000K"
+msgstr "4000K"
+
+#: po/daemon-strings.cpp:38
+msgid "5000K"
+msgstr "5000K"
+
+#: po/daemon-strings.cpp:39
+msgid "5500K"
+msgstr "5500K"
+
+#: po/daemon-strings.cpp:40
+msgid "6000K"
+msgstr "6000K"
+
+#: po/daemon-strings.cpp:41
+msgid "6500K"
+msgstr "6500K"
+
+#: po/daemon-strings.cpp:42
+msgid "7000K"
+msgstr "7000K"
+
+#: po/daemon-strings.cpp:43
+msgid "7500K"
+msgstr "7500K"
+
+#: po/daemon-strings.cpp:44
+msgid "8000K"
+msgstr "8000K"
+
+#: po/daemon-strings.cpp:45
+msgid "8200K"
+msgstr "8200K"
+
+#: po/daemon-strings.cpp:46
+msgid "9300K"
+msgstr "9300K"
+
+#: po/daemon-strings.cpp:47
+msgid "10000K"
+msgstr "10000K"
+
+#: po/daemon-strings.cpp:48
+msgid "R"
+msgstr "R"
+
+#: po/daemon-strings.cpp:49
+msgid "G"
+msgstr "G"
+
+#: po/daemon-strings.cpp:50
+msgid "B"
+msgstr "B"
+
+#: po/daemon-strings.cpp:52
+msgid "1.8"
+msgstr "1.8"
+
+#: po/daemon-strings.cpp:53
+msgid "2.0"
+msgstr "2.0"
+
+#: po/daemon-strings.cpp:54
+msgid "2.2"
+msgstr "2.2"
+
+#: po/daemon-strings.cpp:55
+msgid "2.4"
+msgstr "2.4"
+
+#: po/daemon-strings.cpp:56
+msgid "2.6"
+msgstr "2.6"
+
+#: po/daemon-strings.cpp:59
+msgid "Reset current mode"
+msgstr "Đặt lại chế độ hiện tại"
+
+#: po/daemon-strings.cpp:60
+msgid "Reset all settings"
+msgstr "Đặt lại mọi cài đặt"
+
+#: po/daemon-strings.cpp:62
+msgid "Red Dot"
+msgstr "Chấm đỏ"
+
+#: po/daemon-strings.cpp:63
+msgid "Green Dot"
+msgstr "Chấm xanh lá"
+
+#: po/daemon-strings.cpp:64
+msgid "Red Bullseye"
+msgstr "Hồng tâm đỏ"
+
+#: po/daemon-strings.cpp:65
+msgid "Green Bullseye"
+msgstr "Hồng tâm xanh lá"
+
+#: po/daemon-strings.cpp:66
+msgid "Red Rangefinder"
+msgstr "Máy đo khoảng cách đỏ"
+
+#: po/daemon-strings.cpp:67
+msgid "Green Rangefinder"
+msgstr "Máy đo khoảng cách xanh lá"
+
+#: po/daemon-strings.cpp:68
+msgid "Blue Dot"
+msgstr "Chấm xanh dương"
+
+#: po/daemon-strings.cpp:69
+msgid "Blue Mini Duplex"
+msgstr "Duplex nhỏ xanh dương"
+
+#: po/daemon-strings.cpp:70
+msgid "Green Mini Duplex"
+msgstr "Duplex nhỏ xanh lá"
+
+#: po/daemon-strings.cpp:71
+msgid "Blue Heavy Duplex"
+msgstr "Duplex dày xanh dương"
+
+#: po/daemon-strings.cpp:72
+msgid "Green Heavy Duplex"
+msgstr "Duplex dày xanh lá"
+
+#: po/daemon-strings.cpp:73
+msgid "Style 13"
+msgstr "Kiểu 13"
+
+#: po/daemon-strings.cpp:74
+msgid "Style 14"
+msgstr "Kiểu 14"
+
+#: po/daemon-strings.cpp:75
+msgid "Style 15"
+msgstr "Kiểu 15"
+
+#: po/daemon-strings.cpp:77
+msgid "30:00"
+msgstr "30:00"
+
+#: po/daemon-strings.cpp:78
+msgid "40:00"
+msgstr "40:00"
+
+#: po/daemon-strings.cpp:79
+msgid "50:00"
+msgstr "50:00"
+
+#: po/daemon-strings.cpp:80
+msgid "60:00"
+msgstr "60:00"
+
+#: po/daemon-strings.cpp:81
+msgid "90:00"
+msgstr "90:00"
+
+#: po/daemon-strings.cpp:83
+msgid "Number"
+msgstr "Số"
+
+#: po/daemon-strings.cpp:84
+msgid "Bar Graph"
+msgstr "Biểu đồ cột"
+
+#: po/daemon-strings.cpp:88
+msgid "Up"
+msgstr "Lên"
+
+#: po/daemon-strings.cpp:89
+msgid "Down"
+msgstr "Xuống"
+
+#: po/daemon-strings.cpp:90
+msgid "Right"
+msgstr "Phải"
+
+#: po/daemon-strings.cpp:91
+msgid "Left"
+msgstr "Trái"
+
+#: po/daemon-strings.cpp:101
+msgid "2 hours"
+msgstr "2 giờ"
+
+#: po/daemon-strings.cpp:102
+msgid "4 hours"
+msgstr "4 giờ"
+
+#: po/daemon-strings.cpp:103
+msgid "8 hours"
+msgstr "8 giờ"
+
+#: po/daemon-strings.cpp:105
+msgid "Light"
+msgstr "Nhẹ"
+
+#: po/daemon-strings.cpp:106
+msgid "Middle"
+msgstr "Vừa"
+
+#: po/daemon-strings.cpp:107
+msgid "Strong"
+msgstr "Mạnh"
+
+#: po/daemon-strings.cpp:109
+msgid "PIP top right"
+msgstr "PIP trên phải"
+
+#: po/daemon-strings.cpp:110
+msgid "PIP top left"
+msgstr "PIP trên trái"
+
+#: po/daemon-strings.cpp:111
+msgid "PIP bottom right"
+msgstr "PIP dưới phải"
+
+#: po/daemon-strings.cpp:112
+msgid "PIP bottom left"
+msgstr "PIP dưới trái"
+
+#: po/daemon-strings.cpp:113
+msgid "PBP 50/50"
+msgstr "PBP 50/50"
+
+#: po/daemon-strings.cpp:114
+msgid "PBP wide left"
+msgstr "PBP rộng bên trái"
+
+#: po/daemon-strings.cpp:115
+msgid "PBP wide right"
+msgstr "PBP rộng bên phải"
+
+#: po/daemon-strings.cpp:116
+msgid "Window A source"
+msgstr "Nguồn cửa sổ A"
+
+#: po/daemon-strings.cpp:117
+msgid "DisplayPort"
+msgstr "DisplayPort"
+
+#: po/daemon-strings.cpp:118
+msgid "DisplayPort 2"
+msgstr "DisplayPort 2"
+
+#: po/daemon-strings.cpp:119
+msgid "HDMI-1"
+msgstr "HDMI-1"
+
+#: po/daemon-strings.cpp:120
+msgid "HDMI-2"
+msgstr "HDMI-2"
+
+#: po/daemon-strings.cpp:121
+msgid "HDMI-3"
+msgstr "HDMI-3"
+
+#: po/daemon-strings.cpp:122
+msgid "HDMI-4"
+msgstr "HDMI-4"
+
+#: po/daemon-strings.cpp:123
+msgid "USB-C"
+msgstr "USB-C"
+
+#: po/daemon-strings.cpp:124
+msgid "USB-C 2"
+msgstr "USB-C 2"
+
+#: po/daemon-strings.cpp:125
+msgid "Window B source"
+msgstr "Nguồn cửa sổ B"
+
+#: po/daemon-strings.cpp:126
+msgid "Window A GameVisual"
+msgstr "GameVisual cửa sổ A"
+
+#: po/daemon-strings.cpp:127
+msgid "Window B GameVisual"
+msgstr "GameVisual cửa sổ B"
+
+#: po/daemon-strings.cpp:129
+msgid "Smart KVM"
+msgstr "KVM thông minh"
+
+#: po/daemon-strings.cpp:130
+msgid "USB upstream B"
+msgstr "USB ngược dòng B"
+
+#: po/daemon-strings.cpp:131
+msgid "USB upstream C"
+msgstr "USB ngược dòng C"
+
+#: po/daemon-strings.cpp:132
+msgid "Auto KVM"
+msgstr "KVM tự động"
+
+#: po/daemon-strings.cpp:134
+msgid "Standard"
+msgstr "Chuẩn"
+
+#: po/daemon-strings.cpp:137
+msgid "English"
+msgstr "English"
+
+#: po/daemon-strings.cpp:138
+msgid "Français"
+msgstr "Français"
+
+#: po/daemon-strings.cpp:139
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: po/daemon-strings.cpp:140
+msgid "Español"
+msgstr "Español"
+
+#: po/daemon-strings.cpp:141
+msgid "Italiano"
+msgstr "Italiano"
+
+#: po/daemon-strings.cpp:142
+msgid "Nederlands"
+msgstr "Nederlands"
+
+#: po/daemon-strings.cpp:143
+msgid "Русский"
+msgstr "Русский"
+
+#: po/daemon-strings.cpp:144
+msgid "Polski"
+msgstr "Polski"
+
+#: po/daemon-strings.cpp:145
+msgid "Čeština"
+msgstr "Čeština"
+
+#: po/daemon-strings.cpp:146
+msgid "Hrvatski"
+msgstr "Hrvatski"
+
+#: po/daemon-strings.cpp:147
+msgid "Magyar"
+msgstr "Magyar"
+
+#: po/daemon-strings.cpp:148
+msgid "Română"
+msgstr "Română"
+
+#: po/daemon-strings.cpp:149
+msgid "Português"
+msgstr "Português"
+
+#: po/daemon-strings.cpp:150
+msgid "Türkçe"
+msgstr "Türkçe"
+
+#: po/daemon-strings.cpp:151
+msgid "简体中文"
+msgstr "简体中文"
+
+#: po/daemon-strings.cpp:152
+msgid "繁體中文"
+msgstr "繁體中文"
+
+#: po/daemon-strings.cpp:153
+msgid "日本語"
+msgstr "日本語"
+
+#: po/daemon-strings.cpp:154
+msgid "한국어"
+msgstr "한국어"
+
+#: po/daemon-strings.cpp:155
+msgid "فارسی"
+msgstr "فارسی"
+
+#: po/daemon-strings.cpp:156
+msgid "ไทย"
+msgstr "ไทย"
+
+#: po/daemon-strings.cpp:157
+msgid "Українська"
+msgstr "Українська"
+
+#: po/daemon-strings.cpp:158
+msgid "Bahasa Indonesia"
+msgstr "Bahasa Indonesia"
+
+#: po/daemon-strings.cpp:159
+msgid "Tiếng Việt"
+msgstr "Tiếng Việt"
+
+#: po/daemon-strings.cpp:166
+msgid "Frame Rate Boost"
+msgstr "Tăng tốc độ khung hình"
+
+#: po/daemon-strings.cpp:167
+msgid "Customized Settings-1"
+msgstr "Cài đặt tùy chỉnh-1"
+
+#: po/daemon-strings.cpp:168
+msgid "Customized Settings-2"
+msgstr "Cài đặt tùy chỉnh-2"
+
+#: po/daemon-strings.cpp:170
+msgid "OSD Control"
+msgstr "Điều khiển OSD"
+
+#: po/daemon-strings.cpp:172
+msgid "Show"
+msgstr "Hiện"
+
+#: po/daemon-strings.cpp:173
+msgid "Enter"
+msgstr "Xác nhận"
+
+#: po/daemon-strings.cpp:174
+msgid "Back"
+msgstr "Quay lại"
+
+#: po/daemon-strings.cpp:175
+msgid "Muted"
+msgstr "Đã tắt tiếng"
+
+#: po/daemon-strings.cpp:176
+msgid "Unmuted"
+msgstr "Đã bật tiếng"
+
+#: po/daemon-strings.cpp:179
+msgid "F/W Version"
+msgstr "Phiên bản firmware"
+
+#: po/daemon-strings.cpp:182
+msgid "EZ OSD: open the monitor menu"
+msgstr "EZ OSD: mở menu màn hình"
+
+#: po/daemon-strings.cpp:183
+msgid "EZ OSD: up"
+msgstr "EZ OSD: lên"
+
+#: po/daemon-strings.cpp:184
+msgid "EZ OSD: down"
+msgstr "EZ OSD: xuống"
+
+#: po/daemon-strings.cpp:185
+msgid "EZ OSD: left"
+msgstr "EZ OSD: trái"
+
+#: po/daemon-strings.cpp:186
+msgid "EZ OSD: right"
+msgstr "EZ OSD: phải"
+
+#: po/daemon-strings.cpp:187
+msgid "EZ OSD: enter"
+msgstr "EZ OSD: xác nhận"
+
+#: po/daemon-strings.cpp:188
+msgid "EZ OSD: back"
+msgstr "EZ OSD: quay lại"
+
+#: po/daemon-strings.cpp:189
+msgid "EZ OSD: close the monitor menu"
+msgstr "EZ OSD: đóng menu màn hình"
+
+#: po/daemon-strings.cpp:190
+msgid "Brightness +"
+msgstr "Độ sáng +"
+
+#: po/daemon-strings.cpp:191
+msgid "Brightness −"
+msgstr "Độ sáng −"
+
+#: po/daemon-strings.cpp:192
+msgid "Contrast +"
+msgstr "Độ tương phản +"
+
+#: po/daemon-strings.cpp:193
+msgid "Contrast −"
+msgstr "Độ tương phản −"
+
+#: po/daemon-strings.cpp:194
+msgid "Blue Light Filter +"
+msgstr "Bộ lọc ánh sáng xanh +"
+
+#: po/daemon-strings.cpp:195
+msgid "Blue Light Filter −"
+msgstr "Bộ lọc ánh sáng xanh −"
+
+#: po/daemon-strings.cpp:196
+msgid "Shadow Boost +"
+msgstr "Tăng cường vùng tối +"
+
+#: po/daemon-strings.cpp:197
+msgid "Shadow Boost −"
+msgstr "Tăng cường vùng tối −"
+
+#: po/daemon-strings.cpp:198
+msgid "Saturation +"
+msgstr "Độ bão hòa +"
+
+#: po/daemon-strings.cpp:199
+msgid "Saturation −"
+msgstr "Độ bão hòa −"
+
+#: po/daemon-strings.cpp:200
+msgid "PIP/PBP on/off"
+msgstr "Bật/tắt PIP/PBP"
+
+#: po/daemon-strings.cpp:201
+msgid "KVM: switch USB upstream"
+msgstr "KVM: chuyển USB ngược dòng"
+
+#: po/daemon-strings.cpp:202
+msgid "Power saving on/off"
+msgstr "Bật/tắt tiết kiệm điện"
+
+#: po/daemon-strings.cpp:203
+msgid "Next GameVisual mode"
+msgstr "Chế độ GameVisual tiếp theo"
+
+#: po/daemon-strings.cpp:204
+msgid "Previous GameVisual mode"
+msgstr "Chế độ GameVisual trước đó"
+
+#: po/daemon-strings.cpp:205
+msgid "Target Mode on/off"
+msgstr "Bật/tắt chế độ mục tiêu"
+
+#: po/daemon-strings.cpp:206
+msgid "HDR on/off"
+msgstr "Bật/tắt HDR"
+
+#: po/daemon-strings.cpp:207
+msgid "Top / bottom"
+msgstr "Trên / dưới"
+
+#: po/daemon-strings.cpp:208
+msgid "Left / right"
+msgstr "Trái / phải"
+
+#: po/daemon-strings.cpp:209
+msgid "Wide left, narrow right"
+msgstr "Trái rộng, phải hẹp"
+
+#: po/daemon-strings.cpp:210
+msgid "Narrow left, wide right"
+msgstr "Trái hẹp, phải rộng"
+
+#: po/daemon-strings.cpp:211
+msgid "Tall top, short bottom"
+msgstr "Trên cao, dưới thấp"
+
+#: po/daemon-strings.cpp:212
+msgid "Short top, tall bottom"
+msgstr "Trên thấp, dưới cao"
+
+#: po/daemon-strings.cpp:213
+msgid "Two left, one right"
+msgstr "Hai bên trái, một bên phải"
+
+#: po/daemon-strings.cpp:214
+msgid "One left, two right"
+msgstr "Một bên trái, hai bên phải"
+
+#: po/daemon-strings.cpp:215
+msgid "One top, two bottom"
+msgstr "Một bên trên, hai bên dưới"
+
+#: po/daemon-strings.cpp:216
+msgid "Two top, one bottom"
+msgstr "Hai bên trên, một bên dưới"
+
+#: po/daemon-strings.cpp:217
+msgid "Three columns"
+msgstr "Ba cột"
+
+#: po/daemon-strings.cpp:218
+msgid "Three rows"
+msgstr "Ba hàng"
+
+#: po/daemon-strings.cpp:219
+msgid "Four quadrants"
+msgstr "Bốn ô"
+
+#: po/daemon-strings.cpp:222
+msgid "screen locked"
+msgstr "màn hình bị khóa"
+
+#: po/daemon-strings.cpp:223
+msgid "display off"
+msgstr "màn hình đã tắt"
+
+#: po/daemon-strings.cpp:224
+msgid "an App Tweaker rule covers the focused app"
+msgstr "một quy tắc Tinh chỉnh ứng dụng áp dụng cho ứng dụng đang dùng"
+
+#: po/daemon-strings.cpp:225
+msgid "HDR is on"
+msgstr "HDR đang bật"
+
+#: contrib/io.github.jenaridev.sumi.desktop:5
+msgid "Picture modes, OLED care and GamePlus for ASUS monitors"
+msgstr "Chế độ hình ảnh, chăm sóc OLED và GamePlus cho màn hình ASUS"
+
+#: contrib/io.github.jenaridev.sumi.desktop:9
+msgid "asus;rog;monitor;display;ddc;oled;gamevisual;gameplus;brightness;"
+msgstr ""
+"asus;rog;monitor;display;ddc;oled;gamevisual;gameplus;brightness;hiển thị;độ "
+"sáng;cài đặt;"
+
+#~ msgid "Project page"
+#~ msgstr "Trang dự án"
+
+#~ msgid "Source code, releases and bug reports."
+#~ msgstr "Mã nguồn, bản phát hành và báo cáo lỗi."
+
+#~ msgid "Coming soon"
+#~ msgstr "Sắp ra mắt"
+
+#~ msgid "Settings"
+#~ msgstr "Cài đặt"

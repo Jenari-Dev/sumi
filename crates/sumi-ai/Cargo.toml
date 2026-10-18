@@ -1,0 +1,31 @@
+[package]
+name = "sumi-ai"
+description = "AI Visual: scene classification of the screen (CLIP via tract) and DisplayWidget's mode-switching logic"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+libc.workspace = true
+dirs = "7"
+sha2 = "0.10"
+ureq = "3"
+tract-onnx = "0.21"
+zbus = { version = "5.19", default-features = false, features = ["blocking-api", "tokio"] }
+tokenizers = { version = "0.21", default-features = false, features = ["fancy-regex"], optional = true }
+
+[features]
+# Development tool that regenerates data/prompt-embeddings.json.
+embed = ["dep:tokenizers"]
+
+[[bin]]
+name = "sumi-embed-prompts"
+required-features = ["embed"]
+
+[dev-dependencies]
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }

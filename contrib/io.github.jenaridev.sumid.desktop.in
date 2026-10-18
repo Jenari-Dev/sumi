@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Sumi daemon
+Comment=Background service of Sumi; lets AI Visual read the monitor's picture from KWin
+Exec=@BINDIR@/sumid
+NoDisplay=true
+X-KDE-DBUS-Restricted-Interfaces=org.kde.KWin.ScreenShot2

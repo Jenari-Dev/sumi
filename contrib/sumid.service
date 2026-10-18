@@ -1,0 +1,14 @@
+[Unit]
+Description=Sumi monitor daemon (ASUS monitors over DDC/CI)
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=io.github.JenAriDev.Sumi
+ExecStart=%h/.local/bin/sumid
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Sumi
+GenericName=Monitor settings
+Comment=Picture modes, OLED care and GamePlus for ASUS monitors
+Exec=sumi-app
+Icon=io.github.jenaridev.sumi
+Categories=Settings;HardwareSettings;
+Keywords=asus;rog;monitor;display;ddc;oled;gamevisual;gameplus;brightness;
+StartupWMClass=sumi-app

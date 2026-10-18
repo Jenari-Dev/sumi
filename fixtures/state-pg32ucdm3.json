@@ -1,0 +1,1524 @@
+{
+  "id": "PG32UCDM3@i2c-5",
+  "model": "PG32UCDM3",
+  "line": "gaming",
+  "oled": true,
+  "firmware": {
+    "scheme_major": 2,
+    "scheme_minor": 18,
+    "fw_version": 103,
+    "panel_id": 0
+  },
+  "bus": 5,
+  "connector": "DP-3",
+  "hdr_format": "hdr10",
+  "context": {
+    "mode": 7,
+    "hdr": false,
+    "power_saving": false,
+    "user_color": false,
+    "blf_max": false
+  },
+  "features": [
+    {
+      "id": "gamevisual",
+      "label": "GameVisual",
+      "page": "game_visual",
+      "code": 220,
+      "encoding": {
+        "type": "low_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 7,
+      "max": null,
+      "options": [
+        {
+          "value": 6,
+          "label": "RTS/RPG"
+        },
+        {
+          "value": 7,
+          "label": "FPS"
+        },
+        {
+          "value": 1,
+          "label": "Cinema"
+        },
+        {
+          "value": 2,
+          "label": "Scenery"
+        },
+        {
+          "value": 5,
+          "label": "Racing"
+        },
+        {
+          "value": 10,
+          "label": "sRGB"
+        },
+        {
+          "value": 8,
+          "label": "MOBA"
+        },
+        {
+          "value": 4,
+          "label": "User"
+        },
+        {
+          "value": 9,
+          "label": "Night Vision"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "hdr_mode",
+      "label": "HDR mode",
+      "page": "game_visual",
+      "code": 226,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "replug",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 257,
+          "label": "Cinema HDR"
+        },
+        {
+          "value": 258,
+          "label": "Gaming HDR"
+        },
+        {
+          "value": 259,
+          "label": "Console HDR"
+        },
+        {
+          "value": 264,
+          "label": "True Black 500"
+        },
+        {
+          "value": 517,
+          "label": "Dolby Vision Bright"
+        },
+        {
+          "value": 518,
+          "label": "Dolby Vision Dark"
+        },
+        {
+          "value": 519,
+          "label": "Dolby Vision Gaming"
+        },
+        {
+          "label": "Dolby Vision Source only",
+          "value": 520
+        }
+      ],
+      "supported": true,
+      "enabled": false
+    },
+    {
+      "id": "brightness",
+      "label": "Brightness",
+      "page": "game_visual",
+      "code": 16,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 100,
+      "max": 100,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "contrast",
+      "label": "Contrast",
+      "page": "game_visual",
+      "code": 18,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 80,
+      "max": 100,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "overdrive",
+      "label": "Variable OD",
+      "page": "game_visual",
+      "code": 224,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "supported": false,
+      "enabled": false
+    },
+    {
+      "id": "blue_light",
+      "label": "Blue Light Filter",
+      "page": "game_visual",
+      "code": 230,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": 4,
+      "supported": true,
+      "enabled": false
+    },
+    {
+      "id": "shadow_boost",
+      "label": "Shadow Boost",
+      "page": "game_visual",
+      "code": 229,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 3,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Level 1"
+        },
+        {
+          "value": 2,
+          "label": "Level 2"
+        },
+        {
+          "value": 3,
+          "label": "Level 3"
+        },
+        {
+          "value": 4,
+          "label": "Dynamic"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "ascr",
+      "label": "ASCR",
+      "page": "game_visual",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 2
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "supported": false,
+      "enabled": false
+    },
+    {
+      "id": "saturation",
+      "label": "Saturation",
+      "page": "game_visual",
+      "code": 138,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 50,
+      "max": 100,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "hue",
+      "label": "Hue",
+      "page": "game_visual",
+      "code": 144,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "supported": false,
+      "enabled": false
+    },
+    {
+      "id": "color_temp",
+      "label": "Color Temp.",
+      "page": "game_visual",
+      "code": 20,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 5,
+      "max": null,
+      "options": [
+        {
+          "value": 3,
+          "label": "4000K"
+        },
+        {
+          "value": 4,
+          "label": "5000K"
+        },
+        {
+          "value": 5,
+          "label": "6500K"
+        },
+        {
+          "value": 6,
+          "label": "7500K"
+        },
+        {
+          "value": 7,
+          "label": "8200K"
+        },
+        {
+          "value": 8,
+          "label": "9300K"
+        },
+        {
+          "value": 9,
+          "label": "10000K"
+        },
+        {
+          "value": 11,
+          "label": "User"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "red_gain",
+      "label": "R",
+      "page": "game_visual",
+      "code": 22,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 100,
+      "max": 100,
+      "supported": true,
+      "enabled": false
+    },
+    {
+      "id": "green_gain",
+      "label": "G",
+      "page": "game_visual",
+      "code": 24,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 100,
+      "max": 100,
+      "supported": true,
+      "enabled": false
+    },
+    {
+      "id": "blue_gain",
+      "label": "B",
+      "page": "game_visual",
+      "code": 26,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 100,
+      "max": 100,
+      "supported": true,
+      "enabled": false
+    },
+    {
+      "id": "gamma",
+      "label": "Gamma",
+      "page": "game_visual",
+      "code": 114,
+      "encoding": {
+        "type": "high_byte"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 100,
+      "max": null,
+      "options": [
+        {
+          "value": 80,
+          "label": "1.8"
+        },
+        {
+          "value": 100,
+          "label": "2.0"
+        },
+        {
+          "value": 120,
+          "label": "2.2"
+        },
+        {
+          "value": 140,
+          "label": "2.4"
+        },
+        {
+          "value": 160,
+          "label": "2.6"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "sharpness",
+      "label": "Sharpness",
+      "page": "game_visual",
+      "code": 135,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 50,
+      "max": 100,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "reset",
+      "label": "Reset",
+      "page": "game_visual",
+      "code": 236,
+      "encoding": {
+        "type": "command"
+      },
+      "risk": "resets",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "options": [
+        {
+          "value": 1,
+          "label": "Reset current mode"
+        },
+        {
+          "value": 255,
+          "label": "Reset all settings"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "crosshair",
+      "label": "Crosshair",
+      "page": "game_plus",
+      "code": 227,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 7,
+          "label": "Blue Dot"
+        },
+        {
+          "value": 8,
+          "label": "Green Dot"
+        },
+        {
+          "value": 9,
+          "label": "Blue Mini Duplex"
+        },
+        {
+          "value": 10,
+          "label": "Green Mini Duplex"
+        },
+        {
+          "value": 11,
+          "label": "Blue Heavy Duplex"
+        },
+        {
+          "value": 12,
+          "label": "Green Heavy Duplex"
+        },
+        {
+          "value": 13,
+          "label": "Style 13"
+        },
+        {
+          "value": 14,
+          "label": "Style 14"
+        },
+        {
+          "value": 15,
+          "label": "Style 15"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "timer",
+      "label": "Timer",
+      "page": "game_plus",
+      "code": 228,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "30:00"
+        },
+        {
+          "value": 2,
+          "label": "40:00"
+        },
+        {
+          "value": 3,
+          "label": "50:00"
+        },
+        {
+          "value": 4,
+          "label": "60:00"
+        },
+        {
+          "value": 5,
+          "label": "90:00"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "fps_counter",
+      "label": "FPS Counter",
+      "page": "game_plus",
+      "code": 234,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Number"
+        },
+        {
+          "value": 2,
+          "label": "Bar Graph"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "display_alignment",
+      "label": "Display Alignment",
+      "page": "game_plus",
+      "code": 231,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "gameplus_position",
+      "label": "Set GamePlus Position",
+      "page": "game_plus",
+      "code": 232,
+      "encoding": {
+        "type": "command"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "options": [
+        {
+          "value": 1,
+          "label": "Up"
+        },
+        {
+          "value": 2,
+          "label": "Down"
+        },
+        {
+          "value": 3,
+          "label": "Right"
+        },
+        {
+          "value": 4,
+          "label": "Left"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "screen_dimming",
+      "label": "Screen Dimming Control",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 8
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "logo_detection",
+      "label": "Logo Detection",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 32
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "taskbar_detection",
+      "label": "Taskbar Detection",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 2048
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "boundary_detection",
+      "label": "Boundary Detection",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 4096
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "outer_dimming",
+      "label": "Outer Dimming Control",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 8192
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "global_dimming",
+      "label": "Global Dimming Control",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 16384
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "uniform_brightness",
+      "label": "Uniform Brightness",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 64
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pixel_cleaning",
+      "label": "Pixel Cleaning",
+      "page": "oled_care",
+      "code": 253,
+      "encoding": {
+        "type": "trigger",
+        "mask": 16
+      },
+      "risk": "panel_maintenance",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pixel_cleaning_reminder",
+      "label": "Pixel Cleaning Reminder",
+      "page": "oled_care",
+      "code": 248,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 8,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 2,
+          "label": "2 hours"
+        },
+        {
+          "value": 4,
+          "label": "4 hours"
+        },
+        {
+          "value": 8,
+          "label": "8 hours"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "screen_move",
+      "label": "Screen Move",
+      "page": "oled_care",
+      "code": 249,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 2,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Light"
+        },
+        {
+          "value": 2,
+          "label": "Middle"
+        },
+        {
+          "value": 3,
+          "label": "Strong"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pip_mode",
+      "label": "PIP/PBP",
+      "page": "multi_screen",
+      "code": 244,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "replug",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "PIP top right"
+        },
+        {
+          "value": 2,
+          "label": "PIP top left"
+        },
+        {
+          "value": 3,
+          "label": "PIP bottom right"
+        },
+        {
+          "value": 4,
+          "label": "PIP bottom left"
+        },
+        {
+          "value": 5,
+          "label": "PBP 50/50"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pip_source_a",
+      "label": "Window A source",
+      "page": "multi_screen",
+      "code": 245,
+      "encoding": {
+        "type": "low_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 15,
+          "label": "DisplayPort"
+        },
+        {
+          "value": 17,
+          "label": "HDMI-1"
+        },
+        {
+          "value": 18,
+          "label": "HDMI-2"
+        },
+        {
+          "value": 26,
+          "label": "USB-C"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pip_source_b",
+      "label": "Window B source",
+      "page": "multi_screen",
+      "code": 245,
+      "encoding": {
+        "type": "high_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 15,
+          "label": "DisplayPort"
+        },
+        {
+          "value": 17,
+          "label": "HDMI-1"
+        },
+        {
+          "value": 18,
+          "label": "HDMI-2"
+        },
+        {
+          "value": 26,
+          "label": "USB-C"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pip_gamevisual_a",
+      "label": "Window A GameVisual",
+      "page": "multi_screen",
+      "code": 246,
+      "encoding": {
+        "type": "low_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 6,
+          "label": "RTS/RPG"
+        },
+        {
+          "value": 7,
+          "label": "FPS"
+        },
+        {
+          "value": 1,
+          "label": "Cinema"
+        },
+        {
+          "value": 2,
+          "label": "Scenery"
+        },
+        {
+          "value": 5,
+          "label": "Racing"
+        },
+        {
+          "value": 10,
+          "label": "sRGB"
+        },
+        {
+          "value": 8,
+          "label": "MOBA"
+        },
+        {
+          "value": 4,
+          "label": "User"
+        },
+        {
+          "value": 9,
+          "label": "Night Vision"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "pip_gamevisual_b",
+      "label": "Window B GameVisual",
+      "page": "multi_screen",
+      "code": 246,
+      "encoding": {
+        "type": "high_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 6,
+          "label": "RTS/RPG"
+        },
+        {
+          "value": 7,
+          "label": "FPS"
+        },
+        {
+          "value": 1,
+          "label": "Cinema"
+        },
+        {
+          "value": 2,
+          "label": "Scenery"
+        },
+        {
+          "value": 5,
+          "label": "Racing"
+        },
+        {
+          "value": 10,
+          "label": "sRGB"
+        },
+        {
+          "value": 8,
+          "label": "MOBA"
+        },
+        {
+          "value": 4,
+          "label": "User"
+        },
+        {
+          "value": 9,
+          "label": "Night Vision"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "kvm",
+      "label": "KVM",
+      "page": "multi_screen",
+      "code": 243,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "moves_usb",
+      "vendor_ui": true,
+      "value": 2,
+      "max": null,
+      "options": [
+        {
+          "value": 2,
+          "label": "USB upstream B"
+        },
+        {
+          "value": 3,
+          "label": "USB upstream C"
+        },
+        {
+          "value": 4,
+          "label": "Auto KVM"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "power_saving",
+      "label": "Power Settings",
+      "page": "system",
+      "code": 225,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "locks_features",
+      "vendor_ui": true,
+      "value": 0,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Standard"
+        },
+        {
+          "value": 1,
+          "label": "Power saving"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "language",
+      "label": "OSD Language",
+      "page": "system",
+      "code": 204,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 2,
+      "max": null,
+      "options": [
+        {
+          "value": 2,
+          "label": "English"
+        },
+        {
+          "value": 3,
+          "label": "Français"
+        },
+        {
+          "value": 4,
+          "label": "Deutsch"
+        },
+        {
+          "value": 10,
+          "label": "Español"
+        },
+        {
+          "value": 5,
+          "label": "Italiano"
+        },
+        {
+          "value": 20,
+          "label": "Nederlands"
+        },
+        {
+          "value": 9,
+          "label": "Русский"
+        },
+        {
+          "value": 30,
+          "label": "Polski"
+        },
+        {
+          "value": 18,
+          "label": "Čeština"
+        },
+        {
+          "value": 17,
+          "label": "Hrvatski"
+        },
+        {
+          "value": 26,
+          "label": "Magyar"
+        },
+        {
+          "value": 31,
+          "label": "Română"
+        },
+        {
+          "value": 8,
+          "label": "Português"
+        },
+        {
+          "value": 12,
+          "label": "Türkçe"
+        },
+        {
+          "value": 13,
+          "label": "简体中文"
+        },
+        {
+          "value": 1,
+          "label": "繁體中文"
+        },
+        {
+          "value": 6,
+          "label": "日本語"
+        },
+        {
+          "value": 7,
+          "label": "한국어"
+        },
+        {
+          "value": 38,
+          "label": "فارسی"
+        },
+        {
+          "value": 35,
+          "label": "ไทย"
+        },
+        {
+          "value": 36,
+          "label": "Українська"
+        },
+        {
+          "value": 39,
+          "label": "Bahasa Indonesia"
+        },
+        {
+          "value": 37,
+          "label": "Tiếng Việt"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "shortcut_1",
+      "label": "OSD Shortcut 1",
+      "page": "system",
+      "code": 251,
+      "encoding": {
+        "type": "high_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 1,
+      "max": null,
+      "options": [
+        {
+          "value": 2,
+          "label": "GameVisual"
+        },
+        {
+          "value": 1,
+          "label": "GamePlus"
+        },
+        {
+          "value": 3,
+          "label": "Brightness"
+        },
+        {
+          "value": 6,
+          "label": "Contrast"
+        },
+        {
+          "value": 5,
+          "label": "Shadow Boost"
+        },
+        {
+          "value": 9,
+          "label": "Blue Light Filter"
+        },
+        {
+          "value": 10,
+          "label": "Color Temp."
+        },
+        {
+          "value": 11,
+          "label": "Volume"
+        },
+        {
+          "value": 7,
+          "label": "Input Select"
+        },
+        {
+          "value": 8,
+          "label": "HDR"
+        },
+        {
+          "value": 4,
+          "label": "Mute"
+        },
+        {
+          "value": 12,
+          "label": "KVM"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "shortcut_2",
+      "label": "OSD Shortcut 2",
+      "page": "system",
+      "code": 251,
+      "encoding": {
+        "type": "low_byte"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 2,
+      "max": null,
+      "options": [
+        {
+          "value": 2,
+          "label": "GameVisual"
+        },
+        {
+          "value": 1,
+          "label": "GamePlus"
+        },
+        {
+          "value": 3,
+          "label": "Brightness"
+        },
+        {
+          "value": 6,
+          "label": "Contrast"
+        },
+        {
+          "value": 5,
+          "label": "Shadow Boost"
+        },
+        {
+          "value": 9,
+          "label": "Blue Light Filter"
+        },
+        {
+          "value": 10,
+          "label": "Color Temp."
+        },
+        {
+          "value": 11,
+          "label": "Volume"
+        },
+        {
+          "value": 7,
+          "label": "Input Select"
+        },
+        {
+          "value": 8,
+          "label": "HDR"
+        },
+        {
+          "value": 4,
+          "label": "Mute"
+        },
+        {
+          "value": 12,
+          "label": "KVM"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "osd_key",
+      "label": "OSD Control",
+      "page": "system",
+      "code": 235,
+      "encoding": {
+        "type": "command"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": null,
+      "max": null,
+      "options": [
+        {
+          "value": 0,
+          "label": "Close"
+        },
+        {
+          "value": 1,
+          "label": "Show"
+        },
+        {
+          "value": 2,
+          "label": "Up"
+        },
+        {
+          "value": 3,
+          "label": "Down"
+        },
+        {
+          "value": 4,
+          "label": "Right"
+        },
+        {
+          "value": 5,
+          "label": "Left"
+        },
+        {
+          "value": 6,
+          "label": "Enter"
+        },
+        {
+          "value": 7,
+          "label": "Back"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "input",
+      "label": "Input Select",
+      "page": "system",
+      "code": 96,
+      "encoding": {
+        "type": "low_byte"
+      },
+      "risk": "switches_input",
+      "vendor_ui": false,
+      "value": 15,
+      "max": null,
+      "options": [
+        {
+          "value": 15,
+          "label": "DisplayPort"
+        },
+        {
+          "value": 17,
+          "label": "HDMI-1"
+        },
+        {
+          "value": 18,
+          "label": "HDMI-2"
+        },
+        {
+          "value": 26,
+          "label": "USB-C"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "volume",
+      "label": "Volume",
+      "page": "system",
+      "code": 98,
+      "encoding": {
+        "type": "range"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 50,
+      "max": 100,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "page": "system",
+      "code": 141,
+      "encoding": {
+        "type": "choice"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 2,
+      "max": null,
+      "options": [
+        {
+          "value": 1,
+          "label": "Muted"
+        },
+        {
+          "value": 2,
+          "label": "Unmuted"
+        }
+      ],
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "auto_input",
+      "label": "Auto Input Detection",
+      "page": "system",
+      "code": 252,
+      "encoding": {
+        "type": "bit",
+        "mask": 16
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "vrr",
+      "label": "Adaptive-Sync (VRR)",
+      "page": "system",
+      "code": 253,
+      "encoding": {
+        "type": "bit",
+        "mask": 1
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 1,
+      "max": null,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "firmware",
+      "label": "F/W Version",
+      "page": "device_info",
+      "code": 255,
+      "encoding": {
+        "type": "info"
+      },
+      "risk": "none",
+      "vendor_ui": true,
+      "value": 0,
+      "max": 103,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "usage_hours",
+      "label": "Display usage time",
+      "page": "device_info",
+      "code": 192,
+      "encoding": {
+        "type": "info"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 3339,
+      "max": 0,
+      "supported": true,
+      "enabled": true
+    },
+    {
+      "id": "vertical_freq",
+      "label": "Refresh rate",
+      "page": "device_info",
+      "code": 174,
+      "encoding": {
+        "type": "info"
+      },
+      "risk": "none",
+      "vendor_ui": false,
+      "value": 24000,
+      "max": 65535,
+      "supported": true,
+      "enabled": true
+    }
+  ]
+}
