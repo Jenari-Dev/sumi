@@ -229,6 +229,9 @@ but never flashed by Sumi.
   it installs the KWin entry and restarts `sumid`.
 - **Slow responses on NVIDIA**: its i2c driver needs about 0.1 s per read;
   Sumi serialises and caches to keep the window quick.
+- **Tiling scripts (Krohnkite, Polonium, KWin tiles)**: Sumi takes whatever
+  size the tiler gives it and letterboxes its content. It only keeps its own
+  1280 : 818 shape when you resize it yourself from a corner.
 
 ## Command line
 

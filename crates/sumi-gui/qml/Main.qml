@@ -12,8 +12,9 @@ QQC2.ApplicationWindow {
     flags: Qt.Window | Qt.FramelessWindowHint
     width: Theme.designWidth
     height: Theme.designHeight
-    minimumWidth: 960
-    minimumHeight: 613
+    // Small enough for a tiling layout's tile; the content scales and letterboxes.
+    minimumWidth: 640
+    minimumHeight: 409
     color: Theme.black
 
     // Page ids as used by the sidebar and SUMI_PAGE. `key` is the csv of daemon
@@ -252,10 +253,14 @@ QQC2.ApplicationWindow {
         }
     }
 
-    // ---- Aspect lock (like the vendor window): snap to 1280 : 818 after a resize.
+    // ---- Aspect lock (like the vendor window): snap to 1280 : 818 after the user
+    // drags a corner grip. Sizes set by the compositor (tiling scripts such as
+    // Krohnkite, maximise, KWin's own tiles) are kept as they are: snapping those
+    // back makes the tiler resize again, and the two fight (flicker).
+    readonly property real ratio: Theme.designWidth / Theme.designHeight
+    property bool userResizing: false
     property real lastW: width
     property real lastH: height
-    readonly property real ratio: Theme.designWidth / Theme.designHeight
     Timer {
         id: snap
         interval: 120
@@ -264,7 +269,11 @@ QQC2.ApplicationWindow {
             const dh = Math.abs(win.height - win.lastH);
             win.lastW = win.width;
             win.lastH = win.height;
-            if (Math.abs(win.width / win.height - win.ratio) < 0.004) {
+            if (!win.userResizing) {
+                return;
+            }
+            win.userResizing = false;
+            if (win.visibility !== Window.Windowed || Math.abs(win.width / win.height - win.ratio) < 0.004) {
                 return;
             }
             if (dw >= dh) {
@@ -506,7 +515,12 @@ QQC2.ApplicationWindow {
         height: 10
         hoverEnabled: true
         cursorShape: (edges === (Qt.TopEdge | Qt.LeftEdge) || edges === (Qt.BottomEdge | Qt.RightEdge)) ? Qt.SizeFDiagCursor : Qt.SizeBDiagCursor
-        onPressed: win.startSystemResize(edges)
+        onPressed: {
+            win.lastW = win.width;
+            win.lastH = win.height;
+            win.userResizing = true;
+            win.startSystemResize(edges);
+        }
     }
     Grip { edges: Qt.TopEdge | Qt.LeftEdge; anchors.top: parent.top; anchors.left: parent.left }
     Grip { edges: Qt.TopEdge | Qt.RightEdge; anchors.top: parent.top; anchors.right: parent.right }
